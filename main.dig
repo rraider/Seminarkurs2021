@@ -6,7 +6,7 @@
     <visualElement>
       <elementName>ALU.dig</elementName>
       <elementAttributes/>
-      <pos x="80" y="300"/>
+      <pos x="220" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>REG-A.dig</elementName>
@@ -16,7 +16,7 @@
           <shapeType>LAYOUT</shapeType>
         </entry>
       </elementAttributes>
-      <pos x="260" y="300"/>
+      <pos x="160" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>REG-B.dig</elementName>
@@ -26,9 +26,114 @@
           <shapeType>LAYOUT</shapeType>
         </entry>
       </elementAttributes>
-      <pos x="260" y="420"/>
+      <pos x="200" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>EEPROMDualPort</elementName>
+      <elementAttributes/>
+      <pos x="-220" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>EEPROMDualPort</elementName>
+      <elementAttributes/>
+      <pos x="-220" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8,8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>16</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="340"/>
     </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="-160" y="320"/>
+      <p2 x="-120" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="400"/>
+      <p2 x="220" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="420"/>
+      <p2 x="-220" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="420"/>
+      <p2 x="220" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="280"/>
+      <p2 x="-240" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="280"/>
+      <p2 x="-220" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="440"/>
+      <p2 x="-220" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="360"/>
+      <p2 x="240" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="460"/>
+      <p2 x="-120" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="300"/>
+      <p2 x="-260" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="300"/>
+      <p2 x="-220" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="700"/>
+      <p2 x="280" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="420"/>
+      <p2 x="160" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="360"/>
+      <p2 x="160" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="300"/>
+      <p2 x="240" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="-260" y="300"/>
+      <p2 x="-260" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="320"/>
+      <p2 x="-120" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="-120" y="360"/>
+      <p2 x="-120" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="660"/>
+      <p2 x="280" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="-240" y="280"/>
+      <p2 x="-240" y="420"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>
