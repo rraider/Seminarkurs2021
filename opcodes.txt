@@ -1,0 +1,18 @@
+4bit opc | Mnemonic | 12 Bit argument | anzahl cycles
+------------------------------------------------------------
+0x0 NOP  - ----- 1
+0x1 ADD  a 0xXXX ?
+0x2 SUB  a 0xXXX ?
+0x3 LDA  a 0xXXX ?
+0x4 LDA  c 0xXX  ? 
+0x5 LDB  a 0xXXX ?
+0x6 LDB  c 0xXX  ?
+0x7 JMP  a 0xXXX ?
+0x8 JMPZ a 0xXXX ? //conditional jump if zero flag is set
+0x9 JMPC a 0xXXX ? //conditional jump if carry flag is set
+0xA GFX  g+a 0xX + 0xconstXX  //welches Grafikregister + Adresse mit Wert (die letzten paar Byte vom EEPROM halt)
+0xB AND  //NOT IMPLEMENTED YET
+0xC XOR  //NOT IMPLEMENTED YET
+0xD
+0xE
+0xF HALT - ---- -
