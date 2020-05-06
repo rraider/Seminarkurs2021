@@ -474,6 +474,68 @@
       </elementAttributes>
       <pos x="880" y="1100"/>
     </visualElement>
+    <visualElement>
+      <elementName>REG_INST.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="-660" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>IR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-400" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>IR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-720" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-620" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>II</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-640" y="780"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -515,6 +577,14 @@
     <wire>
       <p1 x="640" y="1040"/>
       <p2 x="660" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="-720" y="720"/>
+      <p2 x="-660" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="-440" y="280"/>
+      <p2 x="-400" y="280"/>
     </wire>
     <wire>
       <p1 x="-460" y="220"/>
@@ -697,6 +767,10 @@
       <p2 x="-460" y="280"/>
     </wire>
     <wire>
+      <p1 x="-620" y="760"/>
+      <p2 x="-620" y="780"/>
+    </wire>
+    <wire>
       <p1 x="240" y="280"/>
       <p2 x="240" y="360"/>
     </wire>
@@ -735,6 +809,10 @@
     <wire>
       <p1 x="220" y="280"/>
       <p2 x="220" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="-640" y="760"/>
+      <p2 x="-640" y="780"/>
     </wire>
   </wires>
   <measurementOrdering/>
