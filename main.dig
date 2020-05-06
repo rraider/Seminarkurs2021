@@ -8,6 +8,26 @@
       <elementAttributes/>
       <pos x="80" y="300"/>
     </visualElement>
+    <visualElement>
+      <elementName>REG-A.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>REG-B.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="420"/>
+    </visualElement>
   </visualElements>
   <wires/>
   <measurementOrdering/>
