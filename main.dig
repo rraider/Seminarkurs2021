@@ -838,6 +838,16 @@
       </elementAttributes>
       <pos x="320" y="1020"/>
     </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>EQL</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="460"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -867,6 +877,10 @@
     <wire>
       <p1 x="-640" y="460"/>
       <p2 x="-560" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="280" y="460"/>
+      <p2 x="320" y="460"/>
     </wire>
     <wire>
       <p1 x="-20" y="1420"/>
