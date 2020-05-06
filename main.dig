@@ -351,7 +351,7 @@
           <string>carry</string>
         </entry>
       </elementAttributes>
-      <pos x="-180" y="1020"/>
+      <pos x="-160" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -365,7 +365,7 @@
           <string>zero</string>
         </entry>
       </elementAttributes>
-      <pos x="-160" y="1020"/>
+      <pos x="-140" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
