@@ -848,7 +848,7 @@
           <string>EXT0</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="1160"/>
+      <pos x="-140" y="1180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -893,14 +893,14 @@
       <elementAttributes>
         <entry>
           <string>rotation</string>
-          <rotation rotation="2"/>
+          <rotation rotation="3"/>
         </entry>
         <entry>
           <string>NetName</string>
           <string>clk</string>
         </entry>
       </elementAttributes>
-      <pos x="-1580" y="2020"/>
+      <pos x="-1560" y="2120"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2988,7 +2988,7 @@
           <string>EXT1</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="1180"/>
+      <pos x="-140" y="1200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2998,7 +2998,7 @@
           <string>EXT2</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="1200"/>
+      <pos x="-140" y="1220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3008,17 +3008,41 @@
           <string>EXT3</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="1220"/>
+      <pos x="-140" y="1240"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>EXT4</string>
+          <string>GFXI</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="1240"/>
+      <pos x="-140" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="-1560" y="2100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>GFXI</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-1520" y="2120"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -4299,7 +4323,7 @@
       <p2 x="240" y="1380"/>
     </wire>
     <wire>
-      <p1 x="-1580" y="2020"/>
+      <p1 x="-1540" y="2020"/>
       <p2 x="-1460" y="2020"/>
     </wire>
     <wire>
@@ -4703,6 +4727,10 @@
       <p2 x="-260" y="1280"/>
     </wire>
     <wire>
+      <p1 x="-1540" y="2020"/>
+      <p2 x="-1540" y="2040"/>
+    </wire>
+    <wire>
       <p1 x="260" y="660"/>
       <p2 x="260" y="680"/>
     </wire>
@@ -4893,6 +4921,10 @@
     <wire>
       <p1 x="-1560" y="1680"/>
       <p2 x="-1560" y="1700"/>
+    </wire>
+    <wire>
+      <p1 x="-1560" y="2100"/>
+      <p2 x="-1560" y="2120"/>
     </wire>
     <wire>
       <p1 x="-920" y="2100"/>
@@ -5505,6 +5537,10 @@
     <wire>
       <p1 x="-240" y="1260"/>
       <p2 x="-240" y="1280"/>
+    </wire>
+    <wire>
+      <p1 x="-1520" y="2100"/>
+      <p2 x="-1520" y="2120"/>
     </wire>
     <wire>
       <p1 x="240" y="280"/>

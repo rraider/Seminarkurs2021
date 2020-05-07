@@ -516,7 +516,7 @@
           <string>EXT0</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="860"/>
+      <pos x="1240" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -550,7 +550,7 @@
           <string>EXT1</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="900"/>
+      <pos x="1240" y="940"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -560,7 +560,7 @@
           <string>EXT2</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="940"/>
+      <pos x="1240" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -570,17 +570,17 @@
           <string>EXT3</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="980"/>
+      <pos x="1240" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>EXT4</string>
+          <string>GFXI</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="1020"/>
+      <pos x="1240" y="860"/>
     </visualElement>
   </visualElements>
   <wires>
