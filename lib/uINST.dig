@@ -413,7 +413,7 @@
         </entry>
         <entry>
           <string>Output Splitting</string>
-          <string>1*15,4,1</string>
+          <string>1*20</string>
         </entry>
       </elementAttributes>
       <pos x="1200" y="260"/>
@@ -484,6 +484,10 @@
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>GFX</string>
         </entry>
@@ -492,7 +496,7 @@
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="860"/>
+      <pos x="760" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -509,10 +513,10 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>EXT</string>
+          <string>EXT0</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="900"/>
+      <pos x="1240" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -537,6 +541,46 @@
         </entry>
       </elementAttributes>
       <pos x="400" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>EXT1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>EXT2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>EXT3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>EXT4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="1020"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -631,6 +675,10 @@
     <wire>
       <p1 x="1020" y="660"/>
       <p2 x="1060" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="980"/>
+      <p2 x="1240" y="980"/>
     </wire>
     <wire>
       <p1 x="200" y="280"/>
@@ -737,6 +785,10 @@
       <p2 x="1060" y="620"/>
     </wire>
     <wire>
+      <p1 x="1220" y="940"/>
+      <p2 x="1240" y="940"/>
+    </wire>
+    <wire>
       <p1 x="200" y="240"/>
       <p2 x="220" y="240"/>
     </wire>
@@ -789,6 +841,14 @@
       <p2 x="1020" y="700"/>
     </wire>
     <wire>
+      <p1 x="740" y="700"/>
+      <p2 x="760" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="1020"/>
+      <p2 x="1240" y="1020"/>
+    </wire>
+    <wire>
       <p1 x="320" y="260"/>
       <p2 x="320" y="500"/>
     </wire>
@@ -839,6 +899,10 @@
     <wire>
       <p1 x="440" y="340"/>
       <p2 x="440" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="700"/>
+      <p2 x="760" y="760"/>
     </wire>
     <wire>
       <p1 x="700" y="620"/>
