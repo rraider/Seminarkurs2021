@@ -219,6 +219,10 @@
           <string>Bits</string>
           <int>16</int>
         </entry>
+        <entry>
+          <string>Data</string>
+          <data>4001,6001,1800,3800,1801,5801,1800,9009,7007,f000</data>
+        </entry>
       </elementAttributes>
       <pos x="-560" y="220"/>
     </visualElement>
@@ -234,16 +238,7 @@
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
-      <elementAttributes>
-        <entry>
-          <string>runRealTime</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
-          <string>Frequency</string>
-          <int>5</int>
-        </entry>
-      </elementAttributes>
+      <elementAttributes/>
       <pos x="-20" y="1420"/>
     </visualElement>
     <visualElement>
