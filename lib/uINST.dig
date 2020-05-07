@@ -123,6 +123,11 @@
           <string>Bits</string>
           <int>8</int>
         </entry>
+        <entry>
+          <string>Data</string>
+          <data>20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+20,20,20,8,20,2,20,0,0,20,0,0,0,0,40,0,1,1,8,0,2,0,0,0,0,80</data>
+        </entry>
       </elementAttributes>
       <pos x="480" y="340"/>
     </visualElement>
