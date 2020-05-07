@@ -589,7 +589,7 @@
           <string>ADDR</string>
         </entry>
       </elementAttributes>
-      <pos x="-680" y="220"/>
+      <pos x="-840" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -619,20 +619,6 @@
         </entry>
       </elementAttributes>
       <pos x="-160" y="-60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>ADDR</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-220" y="-60"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -941,11 +927,95 @@
       </elementAttributes>
       <pos x="-200" y="1220"/>
     </visualElement>
+    <visualElement>
+      <elementName>MAR.dig</elementName>
+      <elementAttributes>
+        <entry>
+          <string>shapeType</string>
+          <shapeType>LAYOUT</shapeType>
+        </entry>
+      </elementAttributes>
+      <pos x="-820" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-800" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>MC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-780" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>MEMADDR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-740" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>MEMADDR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-660" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>MEMADDR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-220" y="-60"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
       <p1 x="-200" y="0"/>
       <p2 x="-160" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-840" y="0"/>
+      <p2 x="-820" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="-760" y="0"/>
+      <p2 x="-740" y="0"/>
     </wire>
     <wire>
       <p1 x="-500" y="260"/>
@@ -1176,7 +1246,7 @@
       <p2 x="-360" y="220"/>
     </wire>
     <wire>
-      <p1 x="-680" y="220"/>
+      <p1 x="-660" y="220"/>
       <p2 x="-580" y="220"/>
     </wire>
     <wire>
@@ -1328,6 +1398,10 @@
       <p2 x="-140" y="1400"/>
     </wire>
     <wire>
+      <p1 x="-780" y="40"/>
+      <p2 x="-780" y="60"/>
+    </wire>
+    <wire>
       <p1 x="-660" y="980"/>
       <p2 x="-660" y="1000"/>
     </wire>
@@ -1378,6 +1452,10 @@
     <wire>
       <p1 x="220" y="1440"/>
       <p2 x="220" y="1480"/>
+    </wire>
+    <wire>
+      <p1 x="-800" y="40"/>
+      <p2 x="-800" y="60"/>
     </wire>
     <wire>
       <p1 x="160" y="420"/>

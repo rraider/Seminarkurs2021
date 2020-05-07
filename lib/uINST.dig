@@ -506,7 +506,7 @@
           <int>4</int>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="780"/>
+      <pos x="1240" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -516,7 +516,7 @@
           <string>EXT0</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="820"/>
+      <pos x="1240" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -526,17 +526,17 @@
           <string>EXT1</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="860"/>
+      <pos x="1240" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>EXT2</string>
+          <string>MC</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="900"/>
+      <pos x="1240" y="780"/>
     </visualElement>
   </visualElements>
   <wires>
