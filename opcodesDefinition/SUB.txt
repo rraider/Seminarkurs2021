@@ -1,2 +1,3 @@
-CE RAMI SU EO;ADDR
+MC;ADDR
+CE RAMI SU EO
 return
