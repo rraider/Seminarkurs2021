@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="mission-patch-rev1.svg">
+  <defs
+     id="defs2">
+    <circle
+       style="fill:none;stroke-width:0.26458332"
+       id="path3771-7"
+       cx="111.881"
+       cy="102.531"
+       r="42.333519" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="348.31011"
+     inkscape:cy="767.79798"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-intersection-paths="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="7.37054,194.469"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label="Maßstab"
+       orientation="8.84736e-14,1"
+       id="guide3721"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="7.37054,194.469"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label=""
+       orientation="-0,1"
+       id="guide3723"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="7.37054,194.469"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label="Anfang"
+       orientation="-1,6.12303e-17"
+       id="guide3725"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="205.921,194.469"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label="Ende"
+       orientation="-0,1"
+       id="guide3727"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="205.921,194.469"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label=""
+       orientation="-1,6.12303e-17"
+       id="guide3729"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="111.881,117.74"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label="Maßstab"
+       orientation="-1,1.31619e-14"
+       id="guide3731"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="111.881,117.74"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label=""
+       orientation="-0,1"
+       id="guide3733"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="111.881,117.74"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label="Anfang"
+       orientation="-1,6.12303e-17"
+       id="guide3735"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="111.881,259.859"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label="Ende"
+       orientation="-0,1"
+       id="guide3737"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="111.881,259.859"
+       inkscape:color="rgb(167,0,255)"
+       inkscape:label=""
+       orientation="-1,6.12303e-17"
+       id="guide3739"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#000080;stroke-width:0.26317132"
+       id="path3747"
+       cx="111.881"
+       cy="102.531"
+       r="49.814529" />
+    <circle
+       style="fill:#ffffff;stroke-width:0.24757525"
+       id="path3749"
+       cx="111.881"
+       cy="102.531"
+       r="40.849873" />
+    <circle
+       style="fill:#000080;stroke-width:0.24802679"
+       id="path3751"
+       cx="111.881"
+       cy="102.531"
+       r="40.038567" />
+    <path
+       style="fill:none;stroke-width:0.25069189"
+       id="path3762"
+       sodipodi:type="arc"
+       sodipodi:cx="-111.881"
+       sodipodi:cy="-102.531"
+       sodipodi:rx="43.6562"
+       sodipodi:ry="43.6562"
+       sodipodi:start="0"
+       sodipodi:end="6.2806282"
+       d="m -68.224796,-102.531 a 43.6562,43.6562 0 0 1 -43.628294,43.656193 43.6562,43.6562 0 0 1 -43.68407,-43.600373 43.6562,43.6562 0 0 1 43.57244,-43.71194 43.6562,43.6562 0 0 1 43.739781,43.54449"
+       sodipodi:open="true"
+       transform="scale(-1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text3769"
+       transform="rotate(-163.53418,111.8444,102.54106)"><textPath
+         xlink:href="#path3771"
+         id="textPath3773"><tspan
+   style="font-size:8.46666622px;fill:#ffffff;stroke-width:0.26458332"
+   id="tspan3767">Wilhelm-Maybach-Schule</tspan></textPath></text>
+    <circle
+       style="fill:none;stroke-width:0.26458332"
+       id="path3771"
+       cx="111.881"
+       cy="102.531"
+       r="42.333519" />
+    <circle
+       style="fill:none;stroke-width:0.30563837"
+       id="path4612"
+       cx="-18.376524"
+       cy="150.66423"
+       r="48.747986"
+       transform="matrix(-0.75974491,0.65022125,0.65022125,0.75974491,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       id="text4627"
+       x="-5.8710413"
+       y="4.2803617"
+       transform="rotate(-6.4273463,106.01994,102.31251)"><textPath
+         xlink:href="#path4612"
+         id="textPath4629"><tspan
+   style="font-size:8.46666622px;fill:#ffffff;stroke-width:0.26458332"
+   id="tspan4625">MAYBACH-SPU-1</tspan></textPath></text>
+  </g>
+</svg>
