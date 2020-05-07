@@ -2952,7 +2952,12 @@
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>12</int>
+        </entry>
+      </elementAttributes>
       <pos x="-340" y="320"/>
     </visualElement>
     <visualElement>
@@ -3208,6 +3213,10 @@
     <wire>
       <p1 x="-160" y="1040"/>
       <p2 x="-140" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="-320" y="1040"/>
+      <p2 x="-280" y="1040"/>
     </wire>
     <wire>
       <p1 x="-100" y="-20"/>
@@ -4090,10 +4099,6 @@
       <p2 x="0" y="2000"/>
     </wire>
     <wire>
-      <p1 x="-300" y="980"/>
-      <p2 x="-280" y="980"/>
-    </wire>
-    <wire>
       <p1 x="-160" y="980"/>
       <p2 x="-140" y="980"/>
     </wire>
@@ -4360,10 +4365,6 @@
     <wire>
       <p1 x="160" y="360"/>
       <p2 x="240" y="360"/>
-    </wire>
-    <wire>
-      <p1 x="-320" y="1000"/>
-      <p2 x="-280" y="1000"/>
     </wire>
     <wire>
       <p1 x="-160" y="1000"/>
@@ -4684,6 +4685,10 @@
     <wire>
       <p1 x="-160" y="1020"/>
       <p2 x="-140" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="1020"/>
+      <p2 x="-280" y="1020"/>
     </wire>
     <wire>
       <p1 x="0" y="2000"/>
@@ -5022,10 +5027,6 @@
       <p2 x="680" y="2420"/>
     </wire>
     <wire>
-      <p1 x="-300" y="740"/>
-      <p2 x="-300" y="980"/>
-    </wire>
-    <wire>
       <p1 x="-940" y="1740"/>
       <p2 x="-940" y="2040"/>
     </wire>
@@ -5060,6 +5061,10 @@
     <wire>
       <p1 x="-940" y="2160"/>
       <p2 x="-940" y="2200"/>
+    </wire>
+    <wire>
+      <p1 x="-300" y="740"/>
+      <p2 x="-300" y="1020"/>
     </wire>
     <wire>
       <p1 x="-560" y="2100"/>
@@ -5119,7 +5124,7 @@
     </wire>
     <wire>
       <p1 x="-320" y="720"/>
-      <p2 x="-320" y="1000"/>
+      <p2 x="-320" y="1040"/>
     </wire>
     <wire>
       <p1 x="320" y="1880"/>
