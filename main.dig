@@ -390,7 +390,7 @@
         </entry>
         <entry>
           <string>NetName</string>
-          <string>BRK</string>
+          <string>HLT</string>
         </entry>
       </elementAttributes>
       <pos x="-160" y="1360"/>
@@ -824,26 +824,6 @@
           <string>GFX</string>
         </entry>
       </elementAttributes>
-      <pos x="-160" y="1120"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>EXT0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-160" y="1140"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>EXT1</string>
-        </entry>
-      </elementAttributes>
       <pos x="-160" y="1160"/>
     </visualElement>
     <visualElement>
@@ -851,10 +831,20 @@
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>EXT2</string>
+          <string>EXT</string>
         </entry>
       </elementAttributes>
       <pos x="-160" y="1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>MC</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-160" y="1120"/>
     </visualElement>
     <visualElement>
       <elementName>DECODER.dig</elementName>
@@ -1002,6 +992,16 @@
         </entry>
       </elementAttributes>
       <pos x="-220" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>HLT</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-160" y="1140"/>
     </visualElement>
   </visualElements>
   <wires>
