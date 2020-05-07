@@ -1,2 +1,3 @@
-CE RAMO AI;ADDR
+MC;ADDR
+CE RAMO AI
 return
