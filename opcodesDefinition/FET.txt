@@ -1,4 +1,3 @@
-PO
-II
-CE
+PO MC
+CE II
 reset
