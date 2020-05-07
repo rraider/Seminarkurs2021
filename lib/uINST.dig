@@ -72,7 +72,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="620"/>
+      <pos x="980" y="620"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -86,7 +86,7 @@
           <int>12</int>
         </entry>
       </elementAttributes>
-      <pos x="1060" y="660"/>
+      <pos x="1120" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>EEPROM</elementName>
@@ -733,11 +733,25 @@
       </elementAttributes>
       <pos x="1240" y="860"/>
     </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>12</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="660"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
       <p1 x="620" y="320"/>
       <p2 x="900" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1080" y="640"/>
+      <p2 x="1120" y="640"/>
     </wire>
     <wire>
       <p1 x="120" y="260"/>
@@ -822,6 +836,10 @@
     <wire>
       <p1 x="560" y="660"/>
       <p2 x="700" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="660"/>
+      <p2 x="1120" y="660"/>
     </wire>
     <wire>
       <p1 x="1040" y="660"/>
@@ -937,7 +955,7 @@
     </wire>
     <wire>
       <p1 x="800" y="620"/>
-      <p2 x="1060" y="620"/>
+      <p2 x="980" y="620"/>
     </wire>
     <wire>
       <p1 x="1220" y="940"/>
@@ -954,6 +972,10 @@
     <wire>
       <p1 x="280" y="240"/>
       <p2 x="400" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="560"/>
+      <p2 x="1120" y="560"/>
     </wire>
     <wire>
       <p1 x="1220" y="500"/>
@@ -1004,11 +1026,19 @@
       <p2 x="640" y="600"/>
     </wire>
     <wire>
+      <p1 x="1120" y="560"/>
+      <p2 x="1120" y="640"/>
+    </wire>
+    <wire>
       <p1 x="580" y="300"/>
       <p2 x="580" y="500"/>
     </wire>
     <wire>
       <p1 x="900" y="320"/>
+      <p2 x="900" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="560"/>
       <p2 x="900" y="680"/>
     </wire>
     <wire>
