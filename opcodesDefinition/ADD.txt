@@ -1,2 +1,2 @@
-RAMI EO;ADDR
+CE RAMI EO;ADDR
 return
