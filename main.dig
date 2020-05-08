@@ -3116,6 +3116,96 @@
       </elementAttributes>
       <pos x="-140" y="1220"/>
     </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>REG JMP</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>12</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-680" y="1140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>ADDR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-700" y="1140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>clk</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-700" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>JI</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-700" y="1180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>12</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-580" y="1160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>JO</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-580" y="1120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>ADDR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-540" y="1160"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -3185,6 +3275,18 @@
     <wire>
       <p1 x="240" y="1160"/>
       <p2 x="260" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="-700" y="1160"/>
+      <p2 x="-680" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="-620" y="1160"/>
+      <p2 x="-600" y="1160"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="1160"/>
+      <p2 x="-540" y="1160"/>
     </wire>
     <wire>
       <p1 x="200" y="140"/>
@@ -3517,6 +3619,10 @@
     <wire>
       <p1 x="-160" y="1180"/>
       <p2 x="-140" y="1180"/>
+    </wire>
+    <wire>
+      <p1 x="-700" y="1180"/>
+      <p2 x="-680" y="1180"/>
     </wire>
     <wire>
       <p1 x="-320" y="160"/>
@@ -4783,6 +4889,10 @@
       <p2 x="140" y="1140"/>
     </wire>
     <wire>
+      <p1 x="-700" y="1140"/>
+      <p2 x="-680" y="1140"/>
+    </wire>
+    <wire>
       <p1 x="360" y="1140"/>
       <p2 x="380" y="1140"/>
     </wire>
@@ -5309,6 +5419,10 @@
     <wire>
       <p1 x="-580" y="2120"/>
       <p2 x="-580" y="2160"/>
+    </wire>
+    <wire>
+      <p1 x="-580" y="1120"/>
+      <p2 x="-580" y="1140"/>
     </wire>
     <wire>
       <p1 x="-580" y="2400"/>
