@@ -14,6 +14,6 @@
 0xB JSUB a 0xXXX
 0xC RSUB a ----
 0xD 
-0xE //Arduino out
+0xE //out to arduino (parrallel out)
 0xF HALT - ---- (2)
 --- FET  - ---- 3
