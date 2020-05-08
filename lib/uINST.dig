@@ -416,7 +416,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>ROMO</string>
+          <string>ROMDO</string>
         </entry>
       </elementAttributes>
       <pos x="1240" y="420"/>
@@ -669,7 +669,7 @@
           <string>EXT0</string>
         </entry>
       </elementAttributes>
-      <pos x="1240" y="900"/>
+      <pos x="1240" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Out</elementName>
@@ -700,36 +700,6 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>EXT1</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1240" y="940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>EXT2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1240" y="980"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>EXT3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1240" y="1020"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
           <string>GFXI</string>
         </entry>
       </elementAttributes>
@@ -744,6 +714,36 @@
         </entry>
       </elementAttributes>
       <pos x="1060" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>JI</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>JO</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>ROMAO</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1240" y="980"/>
     </visualElement>
   </visualElements>
   <wires>
