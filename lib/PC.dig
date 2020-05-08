@@ -8,7 +8,7 @@
       <elementAttributes>
         <entry>
           <string>Bits</string>
-          <int>12</int>
+          <int>11</int>
         </entry>
       </elementAttributes>
       <pos x="680" y="400"/>
@@ -58,7 +58,7 @@
           <int>12</int>
         </entry>
       </elementAttributes>
-      <pos x="420" y="480"/>
+      <pos x="320" y="480"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -88,10 +88,24 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>12</int>
+          <int>11</int>
         </entry>
       </elementAttributes>
       <pos x="800" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>12</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>11,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="480"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -104,12 +118,16 @@
       <p2 x="800" y="400"/>
     </wire>
     <wire>
-      <p1 x="420" y="480"/>
-      <p2 x="580" y="480"/>
-    </wire>
-    <wire>
       <p1 x="600" y="480"/>
       <p2 x="680" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="480"/>
+      <p2 x="380" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="480"/>
+      <p2 x="580" y="480"/>
     </wire>
     <wire>
       <p1 x="540" y="420"/>

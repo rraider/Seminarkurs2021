@@ -1,4 +1,4 @@
-4bit opc | Mnemonic | 12 Bit argument | anzahl cycles
+14bit opc | Mnemonic | 12 Bit argument | anzahl cycles
 ------------------------------------------------------------
 0x0 NOP  - ----- 2
 0x1 ADD  a 0xXXX 3
@@ -11,9 +11,9 @@
 0x8 JMPZ a 0xXXX 2 //conditional jump if zero flag is set
 0x9 JMPC a 0xXXX 2 //conditional jump if carry flag is set
 0xA GFX  g+a 0xX + 0xconstXX 3  //welches Grafikregister + Adresse mit Wert (die letzten paar Byte vom EEPROM halt)
-0xB AND  //NOT IMPLEMENTED YET
-0xC XOR  //NOT IMPLEMENTED YET
-0xD
-0xE
+0xB JSUB a 0xXXX
+0xC RSUB a ----
+0xD 
+0xE //Arduino out
 0xF HALT - ---- (2)
 --- FET  - ---- 3
