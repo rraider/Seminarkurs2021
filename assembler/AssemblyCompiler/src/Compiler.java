@@ -305,6 +305,18 @@ public class Compiler {
 			if(!(instruction.length() == 4)) return false;
 			inst.opcode = Instruction._opcodes.RSUB;
 			break;
+		case "EXT":
+			if(instruction.length() < 5) return false;
+			try {
+				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
+				if(tmp < 0 || tmp > 15)
+					return false;
+			} catch(NumberFormatException e) {
+				return false;
+			}
+			inst.opcode = Instruction._opcodes.EXT;
+			inst.argument = tmp;
+			break;
 		case "HALT":
 			if(!(instruction.length() == 4)) return false;
 			inst.opcode = Instruction._opcodes.HALT;
