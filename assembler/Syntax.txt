@@ -1,5 +1,5 @@
 java -jar Compiler.jar input.txt [-mode m] [-mem x | -memory x]
-m: the mode of binary code; possible options: d, digital, h, hardware; default: h
+m: the mode of binary code; possible options: d, digital/ h, hardware; default: h
 x: the total of memory addresses of the main eeprom; default: 2048
 
 opcodes:
