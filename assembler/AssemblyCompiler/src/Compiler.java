@@ -8,19 +8,25 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Compiler {
-	private File input;
-	private Scanner scanner;
 	private List<String> instructions;
 	private char mode = 'h';
 	private int mem = 2048;
 	private List<Instruction> listInstructions;
 	private byte[] outputBinary;
-	private String outputDigital = ""
-			;
+	private String outputDigital = "";
+	private File gfxFile;
+	private List<String> gfxData;
+	private List<Instruction> gfxList;
+	private boolean graphicsExist = false;
+	
 	public static void main(String[] args) {
 		Compiler c = new Compiler();
 		try {
-			if(!c.readInput(args[0]) || !c.interpretArguments(args)) {
+			c.listInstructions = new ArrayList<Instruction>();
+			c.gfxList = new ArrayList<Instruction>();
+			c.instructions = new ArrayList<String>();
+			c.gfxData = new ArrayList<String>();
+			if(!c.interpretArguments(args) || !c.readInput(args[0], false)) {
 				System.out.println("Syntax error in compile arguments");
 				return;
 			}
@@ -28,7 +34,14 @@ public class Compiler {
 				System.out.println("Program is bigger than EEPROM memory");
 				return;
 			}
-			if(!c.convertInstructions()) {
+			if(!(c.gfxFile == null)) {
+				if(!c.readInput(c.gfxFile.getPath(), true)) return;
+				if(c.gfxData.size() > 0xFF) {
+					System.out.println("Too much Graphics Data");
+					return;
+				}
+			}
+			if(!c.convertInstructions(false, c.instructions)) {
 				return;
 			}
 			if(!c.writeToFile(args[0])) return;
@@ -60,49 +73,83 @@ public class Compiler {
 	private boolean interpretArguments(String[] args) {
 		int n = 1;
 		try {
-		if(args[n].contentEquals("-mode")) {
-			if(args[n + 1].contentEquals("d") || args[n + 1].contentEquals("digital")) {
-				mode = 'd';
+			if(args[n].contentEquals("-g") || args[n].contentEquals("-gfx") || args[n].contentEquals("-graphics")) {
+				File tmp = new File(args[n + 1]);
+				if(!tmp.exists()) return false;
+				gfxFile = tmp;
 				n += 2;
-			} else if(args[n + 1].contentEquals("h") || args[n + 1].contentEquals("hardware")) {
-				mode = 'h';
-				n += 2;
-			} else return false;
-		}
-		if(args[n].contentEquals("-mem") || args[n].contentEquals("-memory")) {
-			try {
-				mem = Integer.parseInt(args[n + 1]);
-				n += 2;
-			} catch(NumberFormatException e) {
-				return false;
 			}
-		}
-		} catch(ArrayIndexOutOfBoundsException e) {
+			if(args[n].contentEquals("-mode")) {
+				if(args[n + 1].contentEquals("d") || args[n + 1].contentEquals("digital")) {
+					mode = 'd';		
+					n += 2;
+				} else if(args[n + 1].contentEquals("h") || args[n + 1].contentEquals("hardware")) {
+					mode = 'h';
+					n += 2;
+				} else return false;
+			}
+			if(args[n].contentEquals("-mem") || args[n].contentEquals("-memory")) {
+				try {
+					mem = Integer.parseInt(args[n + 1]);
+					n += 2;
+				} catch(NumberFormatException e) {
+					return false;
+				}
+			}
+		} catch(Exception e) {
 			
 		}
 		return true;
 	}
 	
-	private boolean convertInstructions() {
-		listInstructions = new ArrayList<Instruction>();
-		for(int i = 0; i < instructions.size(); i ++) {
+	private boolean convertInstructions(boolean gfx, List<String> input) {
+		List<Instruction> list = new ArrayList<Instruction>();
+		for(int i = 0; i < input.size(); i ++) {
 			Instruction inst = new Instruction();
-			listInstructions.add(inst);
-			if(!checkSyntax(instructions.get(i), inst)) {
-				System.out.println("Syntax error in line " + (i + 1) + ": " + instructions.get(i));
+			list.add(inst);
+			if(!gfx && !checkSyntax(input.get(i), inst)) {
+				System.out.println("Syntax error in line " + (i + 1) + ": " + input.get(i));
 				return false;
 			}
+			if(gfx) {
+				int tmp = Integer.parseInt(input.get(i), 16);
+				if(tmp < 0 || tmp > 0xFF) return false; 
+				list.get(i).gfxData = Integer.toHexString(tmp);
+			}
 		}
+		if(gfx)
+			gfxList = list;
+		else
+			listInstructions = list;
+		if(gfx) return true;
 		if(mode == 'h') {
 			outputBinary = new byte[2 * mem];
-			for(int i = 0; i < listInstructions.size(); i ++) {
-				byte[] tmp = listInstructions.get(i).makeBinary().clone();
+			for(int i = 0; i < list.size(); i ++) {
+				byte[] tmp = list.get(i).makeBinary().clone();
 				outputBinary[2 * i] = tmp[0];
 				outputBinary[2 * i + 1] = tmp[1];
 			}
+			if(graphicsExist) {
+				if(!convertInstructions(true, gfxData)) return false;
+				for(int i = 0; i < gfxList.size(); i ++) {
+					byte[] tmp = new byte[2];
+					tmp[0] = (byte) (Byte.parseByte(gfxList.get(i).gfxData) / (byte)0xFF);
+					tmp[1] = Byte.parseByte(gfxList.get(i).gfxData);
+					outputBinary[2 * i + 2 * 0x700 + 1] = tmp[0];
+				}
+			}
 		} else if (mode == 'd') {
-			for(int i = 0; i < listInstructions.size(); i ++) {
-				outputDigital += listInstructions.get(i).makeDigital();
+			for(int i = 0; i < list.size(); i ++) {
+				outputDigital += list.get(i).makeDigital();
+			}
+			if(graphicsExist) {
+				if(!convertInstructions(true, gfxData)) return false;
+				while(outputDigital.length() < 5 * 0x700) outputDigital += "0000,";
+				for(int i = 0; i < gfxList.size(); i ++) {
+					String tmp = gfxList.get(i).gfxData;
+					while(tmp.length() < 4) tmp = "0" + tmp;
+					outputDigital += tmp + ",";
+				}
 			}
 			outputDigital = outputDigital.substring(0, outputDigital.length() - 1);
 		} else return false;
@@ -232,7 +279,7 @@ public class Compiler {
 			int tmp1 = 0;
 			int tmp2 = 0;
 			try {
-				tmp1 = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3, instruction.indexOf(" ", instruction.indexOf(" ") + 1)));
+				tmp1 = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3, instruction.indexOf(" ", instruction.indexOf(" ") + 1)), 16);
 				if(tmp1 < 0 || tmp1 > 0xF) return false;
 				tmp2 = Integer.parseInt(instruction.substring(instruction.indexOf(" ", instruction.indexOf(" ") + 1) + 3), 16);
 				if(tmp2 < 0 || tmp > 0xFE) return false;
@@ -268,18 +315,27 @@ public class Compiler {
 		return true;
 	}
 	
-	private boolean readInput(String input) {
-		this.input = new File(input);
+	private boolean readInput(String input, boolean gfx) {
+		File _input = new File(input);
+		List<String> list = new ArrayList<String>();
+		Scanner scanner;
 		try {
-			scanner = new Scanner(this.input);
+			scanner = new Scanner(_input);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 			return false;
 		}
-		instructions = new ArrayList<String>();
 		while(scanner.hasNextLine()) {
-			instructions.add(scanner.nextLine());
+			list.add(scanner.nextLine());
 		}
+		scanner.close();
+		if(gfx) {
+			gfxFile = _input;
+			gfxData = list;
+		} else {
+			instructions = list;
+		}
+		graphicsExist = true;
 		return true;
 	}
 }

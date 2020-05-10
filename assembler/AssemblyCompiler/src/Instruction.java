@@ -3,6 +3,7 @@ public class Instruction {
 	public enum _opcodes {NOP,ADD,SUB,LDAa,LDAc,LDBa,LDBc,JMP,JMPZ,JMPC,GFX,JSUB,RSUB,HALT}
 	public _opcodes opcode = _opcodes.NOP;
 	public int argument = 0;
+	public String gfxData = "";
 	
 	public byte[] makeBinary() {
 		byte[] output = new byte[2];
