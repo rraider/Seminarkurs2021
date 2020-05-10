@@ -4,7 +4,7 @@ x: the total of memory addresses of the main eeprom; default: 2048
 
 opcodes:
 NOP
-ADD 0xX
+ADD 0xX //only one nibble for RAM
 SUB 0xX
 LDA 0xX
 LDA XX
