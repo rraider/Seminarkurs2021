@@ -1,0 +1,19 @@
+java -jar Compiler.jar input.txt [-mode m] [-mem x | -memory x]
+m: the mode of binary code; possible options: d, digital, h, hardware; default: h
+x: the total of memory addresses of the main eeprom; default: 2048
+
+opcodes:
+NOP
+ADD 0xX
+SUB 0xX
+LDA 0xX
+LDA XX
+LDB 0xX
+LDB XX
+JMP 0xXXX
+JMPZ 0xXXX
+JMPC 0xXXX
+GFX 0xX 0xXX
+HALT
+X: a hexadecimal number
+0x: the following number is an address and not a constant
