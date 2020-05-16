@@ -1,0 +1,422 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS283 U?
+U 1 1 5EBFFFCD
+P 2800 2850
+F 0 "U?" H 2800 3831 50  0000 C CNN
+F 1 "74LS283" H 2800 3740 50  0000 C CNN
+F 2 "" H 2800 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 2800 2850 50  0001 C CNN
+	1    2800 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS283 U?
+U 1 1 5EC01D28
+P 3500 1400
+F 0 "U?" H 3500 2381 50  0000 C CNN
+F 1 "74LS283" H 3500 2290 50  0000 C CNN
+F 2 "" H 3500 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS283" H 3500 1400 50  0001 C CNN
+	1    3500 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 1 1 5EC022A0
+P 950 4100
+F 0 "U?" H 950 4425 50  0000 C CNN
+F 1 "74LS86" H 950 4334 50  0000 C CNN
+F 2 "" H 950 4100 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 950 4100 50  0001 C CNN
+	1    950  4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 2 1 5EC034A1
+P 1400 4100
+F 0 "U?" H 1400 4425 50  0000 C CNN
+F 1 "74LS86" H 1400 4334 50  0000 C CNN
+F 2 "" H 1400 4100 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 1400 4100 50  0001 C CNN
+	2    1400 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 3 1 5EC04C45
+P 1850 4100
+F 0 "U?" H 1850 4425 50  0000 C CNN
+F 1 "74LS86" H 1850 4334 50  0000 C CNN
+F 2 "" H 1850 4100 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 1850 4100 50  0001 C CNN
+	3    1850 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 4 1 5EC0734E
+P 2250 4100
+F 0 "U?" H 2250 4425 50  0000 C CNN
+F 1 "74LS86" H 2250 4334 50  0000 C CNN
+F 2 "" H 2250 4100 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 2250 4100 50  0001 C CNN
+	4    2250 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 5 1 5EC090C2
+P 1450 1350
+F 0 "U?" H 1680 1396 50  0000 L CNN
+F 1 "74LS86" H 1680 1305 50  0000 L CNN
+F 2 "" H 1450 1350 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 1450 1350 50  0001 C CNN
+	5    1450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 5 1 5EC1AB30
+P 1000 1350
+F 0 "U?" H 1230 1396 50  0000 L CNN
+F 1 "74LS86" H 1230 1305 50  0000 L CNN
+F 2 "" H 1000 1350 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 1000 1350 50  0001 C CNN
+	5    1000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5EC29D20
+P 700 1350
+F 0 "C?" H 818 1396 50  0000 L CNN
+F 1 "CP" H 818 1305 50  0000 L CNN
+F 2 "" H 738 1200 50  0001 C CNN
+F 3 "~" H 700 1350 50  0001 C CNN
+	1    700  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EC2BD49
+P 1200 700
+F 0 "#PWR?" H 1200 550 50  0001 C CNN
+F 1 "+5V" H 1215 873 50  0000 C CNN
+F 2 "" H 1200 700 50  0001 C CNN
+F 3 "" H 1200 700 50  0001 C CNN
+	1    1200 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EC2D2D0
+P 1200 2000
+F 0 "#PWR?" H 1200 1750 50  0001 C CNN
+F 1 "GND" H 1205 1827 50  0000 C CNN
+F 2 "" H 1200 2000 50  0001 C CNN
+F 3 "" H 1200 2000 50  0001 C CNN
+	1    1200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  1500 700  1850
+Wire Wire Line
+	700  1850 1000 1850
+Connection ~ 1000 1850
+Wire Wire Line
+	1000 1850 1200 1850
+Wire Wire Line
+	1200 2000 1200 1850
+Connection ~ 1200 1850
+Wire Wire Line
+	1200 1850 1450 1850
+Wire Wire Line
+	1000 850  1200 850 
+Wire Wire Line
+	1200 700  1200 850 
+Connection ~ 1200 850 
+Wire Wire Line
+	1200 850  1450 850 
+Wire Wire Line
+	1000 850  700  850 
+Wire Wire Line
+	700  850  700  1200
+Connection ~ 1000 850 
+Text GLabel 4000 1200 1    50   Output ~ 0
+carry
+Wire Wire Line
+	4000 1200 4000 1400
+Text GLabel 2250 3350 0    50   Input ~ 0
+SU
+Wire Wire Line
+	2250 3350 2300 3350
+Wire Wire Line
+	3300 2050 3000 2050
+Wire Wire Line
+	3000 1900 3000 2050
+Wire Bus Line
+	1950 3000 1550 3000
+Entry Wire Line
+	2350 3600 2450 3700
+Entry Wire Line
+	2150 3600 2250 3700
+Entry Wire Line
+	1950 3600 2050 3700
+Entry Wire Line
+	1750 3600 1850 3700
+Entry Wire Line
+	1500 3600 1600 3700
+Entry Wire Line
+	1300 3600 1400 3700
+Entry Wire Line
+	1050 3600 1150 3700
+Entry Wire Line
+	850  3600 950  3700
+Wire Wire Line
+	950  3700 950  3800
+Wire Wire Line
+	1400 3800 1400 3700
+Wire Wire Line
+	1850 3800 1850 3700
+Wire Wire Line
+	2250 3800 2250 3700
+Text Label 2350 3600 1    50   ~ 0
+BAI0
+Text Label 2150 3600 1    50   ~ 0
+BAI1
+Text Label 1950 3600 1    50   ~ 0
+BAI2
+Text Label 1750 3600 1    50   ~ 0
+BAI3
+Text Label 1500 3600 1    50   ~ 0
+BAI4
+Text Label 1300 3600 1    50   ~ 0
+BAI5
+Text Label 1050 3600 1    50   ~ 0
+BAI6
+Text Label 850  3600 1    50   ~ 0
+BAI7
+Entry Wire Line
+	2800 1300 2900 1200
+Entry Wire Line
+	2800 1200 2900 1100
+Entry Wire Line
+	2800 1100 2900 1000
+Entry Wire Line
+	2800 1000 2900 900 
+Entry Wire Line
+	2100 2750 2200 2650
+Entry Wire Line
+	2100 2650 2200 2550
+Entry Wire Line
+	2100 2550 2200 2450
+Entry Wire Line
+	2100 2450 2200 2350
+Text Label 2200 2650 0    50   ~ 0
+BAI0
+Text Label 2200 2550 0    50   ~ 0
+BAI1
+Wire Wire Line
+	2200 2550 2300 2550
+Wire Wire Line
+	2200 2650 2300 2650
+Wire Wire Line
+	2200 2450 2300 2450
+Wire Wire Line
+	2200 2350 2300 2350
+Text Label 2200 2350 0    50   ~ 0
+BAI3
+Text Label 2900 1200 0    50   ~ 0
+BAI4
+Wire Wire Line
+	2900 900  3000 900 
+Wire Wire Line
+	2900 1000 3000 1000
+Wire Wire Line
+	2900 1100 3000 1100
+Wire Wire Line
+	2900 1200 3000 1200
+Text Label 2200 2450 0    50   ~ 0
+BAI2
+Text Label 2900 1100 0    50   ~ 0
+BAI5
+Text Label 2900 1000 0    50   ~ 0
+BAI6
+Text Label 2900 900  0    50   ~ 0
+BAI7
+Wire Bus Line
+	2800 1350 2100 1350
+Wire Bus Line
+	2100 2800 850  2800
+Entry Wire Line
+	2800 1800 2900 1700
+Entry Wire Line
+	2800 1700 2900 1600
+Entry Wire Line
+	2800 1600 2900 1500
+Entry Wire Line
+	2800 1500 2900 1400
+Wire Wire Line
+	2900 1400 3000 1400
+Wire Wire Line
+	2900 1500 3000 1500
+Wire Wire Line
+	2900 1600 3000 1600
+Wire Wire Line
+	2900 1700 3000 1700
+Text Label 2900 1600 0    50   ~ 0
+RA5
+Text Label 2900 1500 0    50   ~ 0
+RA6
+Text Label 2900 1400 0    50   ~ 0
+RA7
+Wire Wire Line
+	3300 2050 3300 2850
+$Comp
+L power:GND #PWR?
+U 1 1 5ECB06DA
+P 3350 550
+F 0 "#PWR?" H 3350 300 50  0001 C CNN
+F 1 "GND" H 3355 377 50  0000 C CNN
+F 2 "" H 3350 550 50  0001 C CNN
+F 3 "" H 3350 550 50  0001 C CNN
+	1    3350 550 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 550  3500 550 
+Wire Wire Line
+	3500 550  3500 600 
+$Comp
+L power:GND #PWR?
+U 1 1 5ECB44E0
+P 2650 2100
+F 0 "#PWR?" H 2650 1850 50  0001 C CNN
+F 1 "GND" H 2655 1927 50  0000 C CNN
+F 2 "" H 2650 2100 50  0001 C CNN
+F 3 "" H 2650 2100 50  0001 C CNN
+	1    2650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 2100 2650 2050
+Wire Wire Line
+	2650 2050 2800 2050
+Text Label 2900 1700 0    50   ~ 0
+RA4
+Entry Wire Line
+	2100 3250 2200 3150
+Entry Wire Line
+	2100 3150 2200 3050
+Entry Wire Line
+	2100 3050 2200 2950
+Entry Wire Line
+	2100 2950 2200 2850
+Wire Wire Line
+	2200 2850 2300 2850
+Wire Wire Line
+	2200 2950 2300 2950
+Wire Wire Line
+	2200 3050 2300 3050
+Wire Wire Line
+	2200 3150 2300 3150
+Text Label 2200 3050 0    50   ~ 0
+RA1
+Text Label 2200 2950 0    50   ~ 0
+RA2
+Text Label 2200 2850 0    50   ~ 0
+RA3
+Text Label 2200 3150 0    50   ~ 0
+RA0
+Wire Bus Line
+	2800 1850 1950 1850
+Wire Bus Line
+	1950 1850 1950 2900
+Wire Bus Line
+	2100 2900 1950 2900
+Connection ~ 1950 2900
+Wire Bus Line
+	1950 2900 1950 3000
+Text GLabel 1550 3000 0    50   BiDi ~ 0
+REG_A
+Wire Wire Line
+	2450 3700 2450 4700
+Wire Wire Line
+	2050 3700 2050 4700
+Wire Wire Line
+	1600 3700 1600 4700
+Wire Wire Line
+	1150 3700 1150 4700
+$Comp
+L 74xx:74LS86 U?
+U 1 1 5EC198F4
+P 1150 5000
+F 0 "U?" H 1150 5325 50  0000 C CNN
+F 1 "74LS86" H 1150 5234 50  0000 C CNN
+F 2 "" H 1150 5000 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 1150 5000 50  0001 C CNN
+	1    1150 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 2 1 5EC198FA
+P 1600 5000
+F 0 "U?" H 1600 5325 50  0000 C CNN
+F 1 "74LS86" H 1600 5234 50  0000 C CNN
+F 2 "" H 1600 5000 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 1600 5000 50  0001 C CNN
+	2    1600 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 3 1 5EC19900
+P 2050 5000
+F 0 "U?" H 2050 5325 50  0000 C CNN
+F 1 "74LS86" H 2050 5234 50  0000 C CNN
+F 2 "" H 2050 5000 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 2050 5000 50  0001 C CNN
+	3    2050 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 74xx:74LS86 U?
+U 4 1 5EC19906
+P 2450 5000
+F 0 "U?" H 2450 5325 50  0000 C CNN
+F 1 "74LS86" H 2450 5234 50  0000 C CNN
+F 2 "" H 2450 5000 50  0001 C CNN
+F 3 "74xx/74ls86.pdf" H 2450 5000 50  0001 C CNN
+	4    2450 5000
+	0    -1   -1   0   
+$EndComp
+Wire Bus Line
+	850  2800 850  3600
+Wire Bus Line
+	2100 2900 2100 3250
+Wire Bus Line
+	2800 1500 2800 1850
+Wire Bus Line
+	2800 1000 2800 1350
+Wire Bus Line
+	850  3600 2350 3600
+Wire Bus Line
+	2100 1350 2100 2800
+$EndSCHEMATC
