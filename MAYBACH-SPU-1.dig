@@ -3044,16 +3044,6 @@
       <elementName>Out</elementName>
       <elementAttributes>
         <entry>
-          <string>Bits</string>
-          <int>12</int>
-        </entry>
-      </elementAttributes>
-      <pos x="-560" y="880"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
           <string>Label</string>
           <string>A</string>
         </entry>
@@ -3091,6 +3081,30 @@
         </entry>
       </elementAttributes>
       <pos x="340" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>11,1</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-540" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="-560" y="960"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -3540,14 +3554,14 @@
     </wire>
     <wire>
       <p1 x="-600" y="940"/>
-      <p2 x="-580" y="940"/>
+      <p2 x="-540" y="940"/>
     </wire>
     <wire>
       <p1 x="-160" y="940"/>
       <p2 x="-140" y="940"/>
     </wire>
     <wire>
-      <p1 x="-580" y="940"/>
+      <p1 x="-520" y="940"/>
       <p2 x="-480" y="940"/>
     </wire>
     <wire>
@@ -3861,6 +3875,10 @@
     <wire>
       <p1 x="-160" y="960"/>
       <p2 x="-140" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="-560" y="960"/>
+      <p2 x="-540" y="960"/>
     </wire>
     <wire>
       <p1 x="-1500" y="1860"/>
@@ -4731,10 +4749,6 @@
       <p2 x="-140" y="880"/>
     </wire>
     <wire>
-      <p1 x="-580" y="880"/>
-      <p2 x="-560" y="880"/>
-    </wire>
-    <wire>
       <p1 x="200" y="500"/>
       <p2 x="320" y="500"/>
     </wire>
@@ -5273,10 +5287,6 @@
     <wire>
       <p1 x="-580" y="1780"/>
       <p2 x="-580" y="2040"/>
-    </wire>
-    <wire>
-      <p1 x="-580" y="880"/>
-      <p2 x="-580" y="940"/>
     </wire>
     <wire>
       <p1 x="-580" y="2120"/>
