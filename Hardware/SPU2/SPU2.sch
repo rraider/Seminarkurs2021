@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:SPU2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -167,9 +168,9 @@ SU
 Wire Wire Line
 	2250 3350 2300 3350
 Wire Wire Line
-	3300 2050 3000 2050
+	3300 2100 3000 2100
 Wire Wire Line
-	3000 1900 3000 2050
+	3000 1900 3000 2100
 Wire Bus Line
 	1950 3000 1550 3000
 Entry Wire Line
@@ -196,21 +197,21 @@ Wire Wire Line
 	1850 3800 1850 3700
 Wire Wire Line
 	2250 3800 2250 3700
-Text Label 2350 3600 1    50   ~ 0
+Text Label 2450 3700 3    50   ~ 0
 BAI0
-Text Label 2150 3600 1    50   ~ 0
+Text Label 2250 3700 3    50   ~ 0
 BAI1
-Text Label 1950 3600 1    50   ~ 0
+Text Label 2050 3700 3    50   ~ 0
 BAI2
-Text Label 1750 3600 1    50   ~ 0
+Text Label 1850 3700 3    50   ~ 0
 BAI3
-Text Label 1500 3600 1    50   ~ 0
+Text Label 1600 3700 3    50   ~ 0
 BAI4
-Text Label 1300 3600 1    50   ~ 0
+Text Label 1400 3700 3    50   ~ 0
 BAI5
-Text Label 1050 3600 1    50   ~ 0
+Text Label 1150 3700 3    50   ~ 0
 BAI6
-Text Label 850  3600 1    50   ~ 0
+Text Label 950  3700 3    50   ~ 0
 BAI7
 Entry Wire Line
 	2800 1300 2900 1200
@@ -287,7 +288,7 @@ RA6
 Text Label 2900 1400 0    50   ~ 0
 RA7
 Wire Wire Line
-	3300 2050 3300 2850
+	3300 2100 3300 2850
 $Comp
 L power:GND #PWR?
 U 1 1 5ECB06DA
@@ -409,6 +410,191 @@ F 3 "74xx/74ls86.pdf" H 2450 5000 50  0001 C CNN
 $EndComp
 Wire Bus Line
 	850  2800 850  3600
+Wire Wire Line
+	3400 3050 3300 3050
+Wire Wire Line
+	3400 3150 3300 3150
+Wire Wire Line
+	3400 3250 3300 3250
+Wire Wire Line
+	3400 3350 3300 3350
+Wire Wire Line
+	4100 1600 4000 1600
+Wire Wire Line
+	4100 1700 4000 1700
+Wire Wire Line
+	4100 1800 4000 1800
+Wire Wire Line
+	4100 1900 4000 1900
+Entry Wire Line
+	4100 1600 4200 1700
+Entry Wire Line
+	4100 1700 4200 1800
+Entry Wire Line
+	4100 1800 4200 1900
+Entry Wire Line
+	4100 1900 4200 2000
+Entry Wire Line
+	3400 3350 3500 3250
+Entry Wire Line
+	3400 3250 3500 3150
+Entry Wire Line
+	3400 3150 3500 3050
+Entry Wire Line
+	3400 3050 3500 2950
+$Comp
+L power:+5V #PWR?
+U 1 1 5EC1C29E
+P 2800 3650
+F 0 "#PWR?" H 2800 3500 50  0001 C CNN
+F 1 "+5V" H 2815 3823 50  0000 C CNN
+F 2 "" H 2800 3650 50  0001 C CNN
+F 3 "" H 2800 3650 50  0001 C CNN
+	1    2800 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EC1F243
+P 3500 2200
+F 0 "#PWR?" H 3500 2050 50  0001 C CNN
+F 1 "+5V" H 3515 2373 50  0000 C CNN
+F 2 "" H 3500 2200 50  0001 C CNN
+F 3 "" H 3500 2200 50  0001 C CNN
+	1    3500 2200
+	-1   0    0    1   
+$EndComp
+Text Label 3300 3350 0    50   ~ 0
+ALU0
+Text Label 3300 3250 0    50   ~ 0
+ALU1
+Text Label 3300 3150 0    50   ~ 0
+ALU2
+Text Label 3300 3050 0    50   ~ 0
+ALU3
+Text Label 4000 1900 0    50   ~ 0
+ALU4
+Text Label 4000 1800 0    50   ~ 0
+ALU5
+Text Label 4000 1700 0    50   ~ 0
+ALU6
+Text Label 4000 1600 0    50   ~ 0
+ALU7
+Wire Bus Line
+	3500 2550 4200 2550
+Text GLabel 4300 2250 2    50   Output ~ 0
+ALU
+Wire Bus Line
+	4300 2250 4200 2250
+Connection ~ 4200 2250
+Wire Bus Line
+	4200 2250 4200 2550
+Wire Wire Line
+	850  4400 850  5500
+Wire Wire Line
+	1050 5300 1050 5500
+Wire Wire Line
+	1300 4400 1300 5500
+Wire Wire Line
+	1500 5300 1500 5500
+Wire Wire Line
+	1950 5300 1950 5500
+Wire Wire Line
+	2350 5300 2350 5500
+Wire Wire Line
+	2150 4400 2150 4550
+Wire Wire Line
+	2150 4550 2250 4550
+Wire Wire Line
+	2250 4550 2250 5500
+Wire Wire Line
+	1750 4400 1750 4550
+Wire Wire Line
+	1750 4550 1800 4550
+Wire Wire Line
+	1800 4550 1800 5500
+Entry Wire Line
+	2350 5500 2450 5600
+Entry Wire Line
+	2250 5500 2350 5600
+Entry Wire Line
+	1950 5500 2050 5600
+Entry Wire Line
+	1800 5500 1900 5600
+Entry Wire Line
+	1500 5500 1600 5600
+Entry Wire Line
+	1300 5500 1400 5600
+Entry Wire Line
+	1050 5500 1150 5600
+Entry Wire Line
+	850  5500 950  5600
+Text Label 2350 5300 3    50   ~ 0
+REGB0
+Text Label 2250 5300 3    50   ~ 0
+REGB1
+Text Label 1950 5300 3    50   ~ 0
+REGB2
+Text Label 1800 5300 3    50   ~ 0
+REGB3
+Text Label 1500 5300 3    50   ~ 0
+REGB4
+Text Label 1300 5300 3    50   ~ 0
+REGB5
+Text Label 1050 5300 3    50   ~ 0
+REGB6
+Text Label 850  5300 3    50   ~ 0
+REGB7
+Text GLabel 2650 5600 2    50   BiDi ~ 0
+REG_B
+Wire Wire Line
+	1050 4450 1500 4450
+Wire Wire Line
+	1500 4450 1500 4400
+Wire Wire Line
+	1050 4450 1050 4400
+Wire Wire Line
+	1500 4450 1950 4450
+Wire Wire Line
+	1950 4450 1950 4400
+Connection ~ 1500 4450
+Wire Wire Line
+	1950 4450 2350 4450
+Wire Wire Line
+	2350 4450 2350 4400
+Connection ~ 1950 4450
+Wire Wire Line
+	1250 5300 1250 5350
+Wire Wire Line
+	1250 5350 1700 5350
+Wire Wire Line
+	1700 5350 1700 5300
+Wire Wire Line
+	1700 5350 2150 5350
+Wire Wire Line
+	2150 5350 2150 5300
+Connection ~ 1700 5350
+Wire Wire Line
+	2150 5350 2550 5350
+Wire Wire Line
+	2550 5350 2550 5300
+Connection ~ 2150 5350
+Wire Wire Line
+	2350 4450 2700 4450
+Wire Wire Line
+	2700 4450 2700 5350
+Wire Wire Line
+	2700 5350 2550 5350
+Connection ~ 2350 4450
+Connection ~ 2550 5350
+Text GLabel 2750 4450 2    50   Input ~ 0
+SU
+Wire Wire Line
+	2750 4450 2700 4450
+Wire Bus Line
+	3500 2550 3500 3250
+Wire Bus Line
+	4200 1700 4200 2250
 Wire Bus Line
 	2100 2900 2100 3250
 Wire Bus Line
@@ -419,4 +605,7 @@ Wire Bus Line
 	850  3600 2350 3600
 Wire Bus Line
 	2100 1350 2100 2800
+Wire Bus Line
+	950  5600 2650 5600
+Connection ~ 2700 4450
 $EndSCHEMATC
