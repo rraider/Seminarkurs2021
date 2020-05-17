@@ -14,6 +14,6 @@
 0xB JSUB a 0xXXX
 0xC RSUB a ----
 0xD 
-0xE EXTO a 0xX //out to arduino (parrallel out)
+0xE EXTO a 0xX //out to arduino (parrallel out) WARNING: READS WHAT COMES FROM ARDUINO
 0xF HALT - ---- (2)
 --- FET  - ---- 3
