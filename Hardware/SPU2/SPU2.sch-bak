@@ -16145,7 +16145,7 @@ GFX Matrix\n
 Text Notes 27950 22850 0    50   ~ 0
 GFX Logic\n
 $Comp
-L Timer:NE555 U18
+L SPU2-rescue:NE555-Timer U18
 U 1 1 7C0492E4
 P 2050 13700
 F 0 "U18" H 2050 14281 50  0000 C CNN
@@ -16156,7 +16156,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 2050 13700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Timer:NE555 U43
+L SPU2-rescue:NE555-Timer U43
 U 1 1 7C04B9C8
 P 4850 13800
 F 0 "U43" H 4850 14381 50  0000 C CNN
@@ -16167,7 +16167,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 4850 13800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Timer:NE555 U44
+L SPU2-rescue:NE555-Timer U44
 U 1 1 7C58CA69
 P 8000 13950
 F 0 "U44" H 8000 14531 50  0000 C CNN
@@ -24835,96 +24835,22 @@ Wire Wire Line
 	39500 11750 41100 11750
 Wire Wire Line
 	41100 2900 41100 11750
-Text GLabel 24450 850  2    50   BiDi ~ 0
-MEM
-Text Label 22700 1150 1    50   ~ 0
-MEM15
-Text Label 22800 1150 1    50   ~ 0
-MEM14
-Text Label 22900 1150 1    50   ~ 0
-MEM13
-Text Label 23000 1150 1    50   ~ 0
-MEM12
-Text Label 23100 1150 1    50   ~ 0
-MEM11
-Text Label 23200 1150 1    50   ~ 0
-MEM10
-Text Label 23300 1150 1    50   ~ 0
-MEM9
-Text Label 23400 1150 1    50   ~ 0
-MEM8
-Text Label 23500 1150 1    50   ~ 0
-MEM7
-Text Label 23600 1150 1    50   ~ 0
-MEM6
-Text Label 23700 1150 1    50   ~ 0
-MEM5
-Text Label 23800 1150 1    50   ~ 0
-MEM4
-Text Label 23900 1150 1    50   ~ 0
-MEM3
-Text Label 24000 1150 1    50   ~ 0
-MEM2
-Text Label 24100 1150 1    50   ~ 0
-MEM1
-Text Label 24200 1150 1    50   ~ 0
-MEM0
-Entry Wire Line
-	24200 950  24300 850 
-Entry Wire Line
-	24100 950  24200 850 
-Entry Wire Line
-	24000 950  24100 850 
-Entry Wire Line
-	23900 950  24000 850 
-Entry Wire Line
-	23800 950  23900 850 
-Entry Wire Line
-	23700 950  23800 850 
-Entry Wire Line
-	23600 950  23700 850 
-Entry Wire Line
-	23500 950  23600 850 
-Entry Wire Line
-	23400 950  23500 850 
-Entry Wire Line
-	23300 950  23400 850 
-Entry Wire Line
-	23200 950  23300 850 
-Entry Wire Line
-	23100 950  23200 850 
-Entry Wire Line
-	23000 950  23100 850 
-Entry Wire Line
-	22900 950  23000 850 
-Entry Wire Line
-	22800 950  22900 850 
-Entry Wire Line
-	22700 950  22800 850 
 Wire Wire Line
 	24200 950  24200 1500
-Connection ~ 24200 1500
 Wire Wire Line
 	24100 950  24100 1600
-Connection ~ 24100 1600
 Wire Wire Line
 	24000 950  24000 1700
-Connection ~ 24000 1700
 Wire Wire Line
 	23900 950  23900 1800
-Connection ~ 23900 1800
 Wire Wire Line
 	23800 950  23800 1900
-Connection ~ 23800 1900
 Wire Wire Line
 	23700 950  23700 2000
-Connection ~ 23700 2000
 Wire Wire Line
 	23600 950  23600 2100
-Connection ~ 23600 2100
 Wire Wire Line
 	23500 950  23500 2200
-Connection ~ 23500 2200
 Wire Wire Line
 	23400 950  23400 5200
 Wire Wire Line
@@ -26863,13 +26789,87 @@ Connection ~ 18450 4600
 Wire Wire Line
 	18450 4600 18400 4600
 Text Notes 47100 17050 0    50   ~ 0
-altes rom
+altes rom\nNICHT EINBAUEN!
 Text Notes 37000 15850 0    50   ~ 0
 ram leds
 Text Notes 39400 12400 0    50   ~ 0
 address space control
 Text Notes 45400 10750 0    50   ~ 0
-übrige nand gates (für address space control)
+übrige nand gates (für ram)
+Text GLabel 24450 850  2    50   BiDi ~ 0
+MEM
+Text Label 22700 1150 1    50   ~ 0
+MEM15
+Text Label 22800 1150 1    50   ~ 0
+MEM14
+Text Label 22900 1150 1    50   ~ 0
+MEM13
+Text Label 23000 1150 1    50   ~ 0
+MEM12
+Text Label 23100 1150 1    50   ~ 0
+MEM11
+Text Label 23200 1150 1    50   ~ 0
+MEM10
+Text Label 23300 1150 1    50   ~ 0
+MEM9
+Text Label 23400 1150 1    50   ~ 0
+MEM8
+Text Label 23500 1150 1    50   ~ 0
+MEM7
+Text Label 23600 1150 1    50   ~ 0
+MEM6
+Text Label 23700 1150 1    50   ~ 0
+MEM5
+Text Label 23800 1150 1    50   ~ 0
+MEM4
+Text Label 23900 1150 1    50   ~ 0
+MEM3
+Text Label 24000 1150 1    50   ~ 0
+MEM2
+Text Label 24100 1150 1    50   ~ 0
+MEM1
+Text Label 24200 1150 1    50   ~ 0
+MEM0
+Entry Wire Line
+	24200 950  24300 850 
+Entry Wire Line
+	24100 950  24200 850 
+Entry Wire Line
+	24000 950  24100 850 
+Entry Wire Line
+	23900 950  24000 850 
+Entry Wire Line
+	23800 950  23900 850 
+Entry Wire Line
+	23700 950  23800 850 
+Entry Wire Line
+	23600 950  23700 850 
+Entry Wire Line
+	23500 950  23600 850 
+Entry Wire Line
+	23400 950  23500 850 
+Entry Wire Line
+	23300 950  23400 850 
+Entry Wire Line
+	23200 950  23300 850 
+Entry Wire Line
+	23100 950  23200 850 
+Entry Wire Line
+	23000 950  23100 850 
+Entry Wire Line
+	22900 950  23000 850 
+Entry Wire Line
+	22800 950  22900 850 
+Entry Wire Line
+	22700 950  22800 850 
+Connection ~ 23500 2200
+Connection ~ 23600 2100
+Connection ~ 23700 2000
+Connection ~ 23800 1900
+Connection ~ 23900 1800
+Connection ~ 24000 1700
+Connection ~ 24100 1600
+Connection ~ 24200 1500
 Wire Bus Line
 	31050 13550 31050 13800
 Wire Bus Line
@@ -27041,8 +27041,6 @@ Wire Bus Line
 Wire Bus Line
 	36900 14000 36900 15650
 Wire Bus Line
-	22800 850  24450 850 
-Wire Bus Line
 	39350 2800 41000 2800
 Wire Bus Line
 	34750 2800 36400 2800
@@ -27054,4 +27052,6 @@ Wire Bus Line
 	26900 1150 26900 4100
 Wire Bus Line
 	13500 6000 15150 6000
+Wire Bus Line
+	22800 850  24450 850 
 $EndSCHEMATC

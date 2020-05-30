@@ -168,7 +168,7 @@ public class Compiler {
 			if(instruction.length() < 5) return false;
 			try {
 				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-				if(tmp < 0 || tmp > 15)
+				if(tmp < 0 || tmp > 0xFFF)
 					return false;
 			} catch(NumberFormatException e) {
 				return false;
@@ -180,7 +180,7 @@ public class Compiler {
 			if(instruction.length() < 5) return false;
 			try {
 				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-				if(tmp < 0 || tmp > 15)
+				if(tmp < 0 || tmp > 0xFFF)
 					return false;
 			} catch(NumberFormatException e) {
 				return false;
@@ -193,7 +193,7 @@ public class Compiler {
 			if(instruction.contains("0x")) {
 				try {
 					tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-					if(tmp < 0 || tmp > 15)
+					if(tmp < 0 || tmp > 0xFFF)
 						return false;
 				} catch(NumberFormatException e) {
 					return false;
@@ -218,7 +218,7 @@ public class Compiler {
 			if(instruction.contains("0x")) {
 				try {
 					tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-					if(tmp < 0 || tmp > 15)
+					if(tmp < 0 || tmp > 0xFFF)
 						return false;
 				} catch(NumberFormatException e) {
 					return false;
@@ -242,7 +242,7 @@ public class Compiler {
 			if(instruction.length() < 5) return false;
 			try {
 				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-				if(tmp < 0 || tmp > 0x6FF)
+				if(tmp < 0 || (tmp > 0x6FF && tmp < 0xF00) || tmp > 0xFFF)
 					return false;
 			} catch(NumberFormatException e) {
 				return false;
@@ -254,7 +254,7 @@ public class Compiler {
 			if(instruction.length() < 5) return false;
 			try {
 				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-				if(tmp < 0 || tmp > 0x6FF)
+				if(tmp < 0 || (tmp > 0x6FF && tmp < 0xF00) || tmp > 0xFFF)
 					return false;
 			} catch(NumberFormatException e) {
 				return false;
@@ -266,7 +266,7 @@ public class Compiler {
 			if(instruction.length() < 5) return false;
 			try {
 				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-				if(tmp < 0 || tmp > 0x6FF)
+				if(tmp < 0 || (tmp > 0x6FF && tmp < 0xF00) || tmp > 0xFFF)
 					return false;
 			} catch(NumberFormatException e) {
 				return false;
@@ -293,7 +293,7 @@ public class Compiler {
 			if(instruction.length() < 5) return false;
 			try {
 				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-				if(tmp < 0 || tmp > 0x6FF)
+				if(tmp < 0 || (tmp > 0x6FF && tmp < 0xF00) || tmp > 0xFFF)
 					return false;
 			} catch(NumberFormatException e) {
 				return false;
@@ -309,7 +309,7 @@ public class Compiler {
 			if(instruction.length() < 5) return false;
 			try {
 				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 3), 16);
-				if(tmp < 0 || tmp > 15)
+				if(tmp < 0 || tmp > 0xFFF)
 					return false;
 			} catch(NumberFormatException e) {
 				return false;

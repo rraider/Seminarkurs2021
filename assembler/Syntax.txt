@@ -5,17 +5,18 @@ graphics.txt: the graphics constants to be written to memory (0x700 to 0x7FE); d
 
 opcodes:
 NOP
-ADD 0xX //only one nibble for RAM
-SUB 0xX
-LDA 0xX
+ADD 0xXXX
+SUB 0xXXX
+LDA 0xXXX
 LDA XX
-LDB 0xX
+LDB 0xXXX
 LDB XX
 JMP 0xXXX
 JMPZ 0xXXX
 JMPC 0xXXX
-GFX 0xX 0xXX
-EXT 0xX
+GFX 0xX 0xXX //0xX: address of graphics line; 0xXX: space in ROM (0x700 - 0x7FE)
+EXT 0xXXX
 HALT
 X: a hexadecimal number
 0x: the following number is an address and not a constant
+address space from 0x700 to 0x7FE is reserved for graphics content
