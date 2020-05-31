@@ -30,7 +30,7 @@ public class Compiler {
 				System.out.println("Syntax error in compile arguments");
 				return;
 			}
-			if(c.instructions.size() > (c.mem - 0x101)) {
+			if(c.instructions.size() > (c.mem - 0x102)) {
 				System.out.println("Program is bigger than EEPROM memory");
 				return;
 			}
@@ -129,6 +129,8 @@ public class Compiler {
 				outputBinary[2 * i] = tmp[0];
 				outputBinary[2 * i + 1] = tmp[1];
 			}
+			outputBinary[2*0x6FF] = 0x7F;
+			outputBinary[2*0x6FF+1] = 0x00;
 			if(graphicsExist) {
 				if(!convertInstructions(true, gfxData)) return false;
 				for(int i = 0; i < gfxList.size(); i ++) {
