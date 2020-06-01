@@ -19614,8 +19614,6 @@ F 3 "" H 20900 21000 50  0001 C CNN
 	1    20900 21000
 	1    0    0    -1  
 $EndComp
-NoConn ~ 15450 5950
-NoConn ~ 14650 3200
 $Comp
 L Device:C C84
 U 1 1 F7498042
@@ -20706,60 +20704,11 @@ Wire Wire Line
 Connection ~ 16700 6150
 Wire Wire Line
 	16650 8200 16650 6250
-Connection ~ 16650 6250
 Wire Wire Line
 	16600 8300 16600 6350
 Connection ~ 16600 6350
-Text GLabel 16050 5000 2    50   BiDi ~ 0
-ADDR
-Text Label 16250 5350 0    50   ~ 0
-ADDR10
-Text Label 16250 5450 0    50   ~ 0
-ADDR9
-Text Label 16250 5550 0    50   ~ 0
-ADDR8
-Entry Wire Line
-	16150 5350 16050 5250
-Entry Wire Line
-	16150 5450 16050 5350
-Entry Wire Line
-	16150 5550 16050 5450
-Text Label 16250 5650 0    50   ~ 0
-ADDR7
-Text Label 16250 5750 0    50   ~ 0
-ADDR6
-Text Label 16250 5850 0    50   ~ 0
-ADDR5
-Text Label 16250 5950 0    50   ~ 0
-ADDR4
-Entry Wire Line
-	16150 5650 16050 5550
-Entry Wire Line
-	16150 5750 16050 5650
-Entry Wire Line
-	16150 5850 16050 5750
-Entry Wire Line
-	16150 5950 16050 5850
-Entry Wire Line
-	16150 6350 16050 6250
-Entry Wire Line
-	16150 6250 16050 6150
-Entry Wire Line
-	16150 6150 16050 6050
-Entry Wire Line
-	16150 6050 16050 5950
-Text Label 16250 6350 0    50   ~ 0
-ADDR0
-Text Label 16250 6250 0    50   ~ 0
-ADDR1
-Text Label 16250 6150 0    50   ~ 0
-ADDR2
-Text Label 16250 6050 0    50   ~ 0
-ADDR3
 Wire Wire Line
 	16150 6350 16600 6350
-Wire Wire Line
-	16150 6250 16650 6250
 Wire Wire Line
 	16150 6150 16700 6150
 Wire Wire Line
@@ -26031,6 +25980,54 @@ EF 00 00 4E 77 42 AE 2C 77 1D D7 3B 85 B7 A9 F2 94 4B 92 A4 77 0A 00 0D 43 4D 01
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Entry Wire Line
+	16150 5350 16050 5250
+Entry Wire Line
+	16150 5450 16050 5350
+Entry Wire Line
+	16150 5550 16050 5450
+Entry Wire Line
+	16150 5650 16050 5550
+Entry Wire Line
+	16150 5750 16050 5650
+Entry Wire Line
+	16150 5850 16050 5750
+Entry Wire Line
+	16150 5950 16050 5850
+Entry Wire Line
+	16150 6350 16050 6250
+Entry Wire Line
+	16150 6250 16050 6150
+Entry Wire Line
+	16150 6150 16050 6050
+Entry Wire Line
+	16150 6050 16050 5950
+Text GLabel 16050 5000 1    50   BiDi ~ 0
+MEMADDR
+Text Label 16500 6350 2    50   ~ 0
+MEMADDR0
+Text Label 16500 6250 2    50   ~ 0
+MEMADDR1
+Text Label 16500 6150 2    50   ~ 0
+MEMADDR2
+Text Label 16500 6050 2    50   ~ 0
+MEMADDR3
+Text Label 16500 5950 2    50   ~ 0
+MEMADDR4
+Text Label 16500 5850 2    50   ~ 0
+MEMADDR5
+Text Label 16500 5750 2    50   ~ 0
+MEMADDR6
+Text Label 16500 5650 2    50   ~ 0
+MEMADDR7
+Text Label 16500 5550 2    50   ~ 0
+MEMADDR8
+Text Label 16500 5450 2    50   ~ 0
+MEMADDR9
+Text Label 16500 5350 2    50   ~ 0
+MEMADDR10
+Wire Wire Line
+	16150 6250 16650 6250
 Wire Bus Line
 	29950 14350 29950 14550
 Wire Bus Line
@@ -26109,8 +26106,6 @@ Wire Bus Line
 	30900 3100 31700 3100
 Wire Bus Line
 	4050 4750 4050 5650
-Wire Bus Line
-	16050 5000 16050 6250
 Wire Bus Line
 	12300 10350 12300 11800
 Wire Bus Line
@@ -26194,6 +26189,8 @@ Wire Bus Line
 Wire Bus Line
 	21950 6250 21950 7250
 Wire Bus Line
+	16050 5000 16050 6250
+Wire Bus Line
 	22500 13550 22500 21900
 Wire Bus Line
 	22350 13450 22350 21800
@@ -26211,4 +26208,5 @@ Wire Bus Line
 	26900 1150 26900 4100
 Wire Bus Line
 	13500 6000 15150 6000
+Connection ~ 16650 6250
 $EndSCHEMATC
