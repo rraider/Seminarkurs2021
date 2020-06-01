@@ -1,6 +1,6 @@
-update=31.05.2020 21:59:01
+update=01.06.2020 00:16:04
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -15,7 +15,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
@@ -45,8 +45,10 @@ TrackWidth4=0.75
 TrackWidth5=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
-ViaDiameter2=1
-ViaDrill2=0.5
+ViaDiameter2=0.6
+ViaDrill2=0.3
+ViaDiameter3=1
+ViaDrill3=0.5
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
