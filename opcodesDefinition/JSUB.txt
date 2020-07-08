@@ -1,4 +1,9 @@
+//B register must be 1 at beginning
 CE
-PO JI
+CONST MC
+MEMDO AI
+RAMI EO
+MEMAO MC
+PO RAMI
 J;ADDR
 return
