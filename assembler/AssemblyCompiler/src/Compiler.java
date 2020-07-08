@@ -129,8 +129,8 @@ public class Compiler {
 				outputBinary[2 * i] = tmp[0];
 				outputBinary[2 * i + 1] = tmp[1];
 			}
-			outputBinary[2*0x6FF] = 0x7F;
-			outputBinary[2*0x6FF+1] = 0x00;
+			outputBinary[2*0x6FF] = 0x79; //old value without stack: 0x7F
+			outputBinary[2*0x6FF+1] = 0x00; //old value without stack: 0x00
 			if(graphicsExist) {
 				if(!convertInstructions(true, gfxData)) return false;
 				for(int i = 0; i < gfxList.size(); i ++) {
