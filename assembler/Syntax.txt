@@ -1,4 +1,4 @@
-java -jar Compiler.jar input.txt [-g | -gfx | -graphics graphics.txt [-mode m] [-mem | -memory x]
+java -jar Compiler.jar input.txt [-g | -gfx | -graphics graphics.txt] [-mode m] [-mem | -memory x]
 m: the mode of binary code; possible options: d, digital/ h, hardware; default: h
 x: the total of memory addresses of the main eeprom; default: 2048
 graphics.txt: the graphics constants to be written to memory (0x700 to 0x7FE); default: no graphics
@@ -14,6 +14,8 @@ LDB XX
 JMP 0xXXX
 JMPZ 0xXXX
 JMPC 0xXXX
+JSUB 0xXXX //B-register has to be 1 before this opcode is invoked
+RSUB //B-register has to be 1 before this opcode is invoked
 GFX 0xX 0xXX //0xX: address of graphics line; 0xXX: space in ROM (0x700 - 0x7FE)
 EXT 0xXXX
 HALT
