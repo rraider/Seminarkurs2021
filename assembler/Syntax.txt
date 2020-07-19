@@ -24,3 +24,4 @@ X: a hexadecimal number
 address space from 0x700 to 0x7FE is reserved for graphics content
 
 first instruction must be NOP
+if subroutines are to be used, the stackpointer (0x800) has to be set to 1 at the beginning of the program
