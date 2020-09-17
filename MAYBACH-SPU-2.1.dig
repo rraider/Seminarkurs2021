@@ -600,16 +600,6 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
-          <string>NetName</string>
-          <string>ADDR</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-420" y="940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
           <string>rotation</string>
           <rotation rotation="2"/>
         </entry>
@@ -829,16 +819,6 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
         </entry>
       </elementAttributes>
       <pos x="-140" y="1000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>ADDR</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-140" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1359,16 +1339,6 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
       <elementAttributes>
         <entry>
           <string>NetName</string>
-          <string>ADDR</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-160" y="260"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
           <string>GFXI</string>
         </entry>
       </elementAttributes>
@@ -1473,30 +1443,6 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
         </entry>
       </elementAttributes>
       <pos x="340" y="340"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Input Splitting</string>
-          <string>11,1</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>12</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-540" y="940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-      </elementAttributes>
-      <pos x="-560" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2444,16 +2390,6 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
       <pos x="-620" y="240"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>ADDR</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-540" y="1360"/>
-    </visualElement>
-    <visualElement>
       <elementName>Splitter</elementName>
       <elementAttributes>
         <entry>
@@ -2486,14 +2422,35 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
       <elementName>Tunnel</elementName>
       <elementAttributes>
         <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
           <string>NetName</string>
-          <string>CONST</string>
+          <string>ADDR</string>
         </entry>
       </elementAttributes>
+      <pos x="-160" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>ADDR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-140" y="1040"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>ADDR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-420" y="940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
       <pos x="-580" y="1320"/>
     </visualElement>
   </visualElements>
@@ -2523,12 +2480,12 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
       <p2 x="-220" y="260"/>
     </wire>
     <wire>
-      <p1 x="-180" y="260"/>
-      <p2 x="-160" y="260"/>
-    </wire>
-    <wire>
       <p1 x="160" y="260"/>
       <p2 x="320" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="260"/>
+      <p2 x="-160" y="260"/>
     </wire>
     <wire>
       <p1 x="-500" y="260"/>
@@ -2615,12 +2572,12 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
       <p2 x="-1480" y="1680"/>
     </wire>
     <wire>
-      <p1 x="-160" y="1040"/>
-      <p2 x="-140" y="1040"/>
-    </wire>
-    <wire>
       <p1 x="-320" y="1040"/>
       <p2 x="-280" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="1040"/>
+      <p2 x="-140" y="1040"/>
     </wire>
     <wire>
       <p1 x="-100" y="-20"/>
@@ -2723,16 +2680,16 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
       <p2 x="-680" y="940"/>
     </wire>
     <wire>
-      <p1 x="-440" y="940"/>
-      <p2 x="-420" y="940"/>
+      <p1 x="-160" y="940"/>
+      <p2 x="-140" y="940"/>
     </wire>
     <wire>
       <p1 x="-600" y="940"/>
-      <p2 x="-540" y="940"/>
+      <p2 x="-520" y="940"/>
     </wire>
     <wire>
-      <p1 x="-160" y="940"/>
-      <p2 x="-140" y="940"/>
+      <p1 x="-440" y="940"/>
+      <p2 x="-420" y="940"/>
     </wire>
     <wire>
       <p1 x="-520" y="940"/>
@@ -2809,10 +2766,6 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
     <wire>
       <p1 x="-160" y="960"/>
       <p2 x="-140" y="960"/>
-    </wire>
-    <wire>
-      <p1 x="-560" y="960"/>
-      <p2 x="-540" y="960"/>
     </wire>
     <wire>
       <p1 x="-920" y="2240"/>
@@ -2957,10 +2910,6 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
     <wire>
       <p1 x="-660" y="1360"/>
       <p2 x="-640" y="1360"/>
-    </wire>
-    <wire>
-      <p1 x="-560" y="1360"/>
-      <p2 x="-540" y="1360"/>
     </wire>
     <wire>
       <p1 x="-160" y="980"/>
@@ -3203,12 +3152,12 @@ f000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
       <p2 x="-640" y="1400"/>
     </wire>
     <wire>
-      <p1 x="-160" y="1020"/>
-      <p2 x="-140" y="1020"/>
-    </wire>
-    <wire>
       <p1 x="-300" y="1020"/>
       <p2 x="-280" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="1020"/>
+      <p2 x="-140" y="1020"/>
     </wire>
     <wire>
       <p1 x="-1460" y="2300"/>
