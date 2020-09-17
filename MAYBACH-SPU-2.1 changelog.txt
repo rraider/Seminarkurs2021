@@ -1,0 +1,3 @@
+- removed JMP-register
+- put ROM and RAM in same adress space
+- added CONST
