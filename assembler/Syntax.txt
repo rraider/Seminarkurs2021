@@ -17,6 +17,7 @@ JMPC 0xXXX
 JSUB 0xXXX //B-register has to be 1 before this opcode is invoked
 RSUB //B-register has to be 1 before this opcode is invoked
 GFX 0xX 0xXX //0xX: address of graphics line; 0xXX: space in ROM (0x700 - 0x7FE)
+SOT X //X: 0 or 1 selects opcodes from Table A and Table B respectively (see ../opcodesDefinition/_opcodes.txt)
 EXT 0xXXX
 HALT
 X: a hexadecimal number

@@ -1,3 +1,2 @@
 PO MC
-CE II
-reset
+II
