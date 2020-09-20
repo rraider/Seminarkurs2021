@@ -1,6 +1,5 @@
 //B register must be 1 at beginning
-CE
-CONST MC
+CE CONST MC
 MEMDO AI
 RAMI EO
 MEMAO MC

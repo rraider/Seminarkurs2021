@@ -1,6 +1,6 @@
 
 public class Instruction {
-	public enum _opcodes {NOP,ADD,SUB,LDAa,LDAc,LDBa,LDBc,JMP,JMPZ,JMPC,GFX,JSUB,RSUB,EXT,HALT}
+	public enum _opcodes {NOP,ADD,SUB,LDAa,LDAc,LDBa,LDBc,JMP,JMPZ,JMPC,GFX,JSUB,RSUB,SOT,EXT,HALT}
 	public _opcodes opcode = _opcodes.NOP;
 	public int argument = 0;
 	public String gfxData = "";
@@ -47,6 +47,8 @@ public class Instruction {
 		case RSUB:
 			output[0] = (byte) 0xC0;
 			break;
+		case SOT:
+			output[0] = (byte) 0xD0;
 		case EXT:
 			output[0] = (byte) 0xE0;
 			break;
@@ -100,6 +102,9 @@ public class Instruction {
 			break;
 		case RSUB:
 			output = "c";
+			break;
+		case SOT:
+			output = "d";
 			break;
 		case EXT:
 			output = "e";

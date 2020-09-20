@@ -300,12 +300,24 @@ public class Compiler {
 			} catch(NumberFormatException e) {
 				return false;
 			}
-			inst.opcode = Instruction._opcodes.ADD;
+			inst.opcode = Instruction._opcodes.JSUB;
 			inst.argument = tmp;
 			break;
 		case "RSUB":
 			if(!(instruction.length() == 4)) return false;
 			inst.opcode = Instruction._opcodes.RSUB;
+			break;
+		case "SOT":
+			if(instruction.length() < 5) return false;
+			try {
+				tmp = Integer.parseInt(instruction.substring(instruction.indexOf(" ") + 1), 16);
+				if(tmp < 0 || tmp > 0xF)
+					return false;
+			} catch(NumberFormatException e) {
+				return false;
+			}
+			inst.opcode = Instruction._opcodes.SOT;
+			inst.argument = tmp;
 			break;
 		case "EXT":
 			if(instruction.length() < 5) return false;
