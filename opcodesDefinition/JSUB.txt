@@ -1,8 +1,8 @@
 //B register must be 1 at beginning
 CE CONST MC
 MEMDO AI
-RAMI EO
+RAMDI EO
 MEMAO MC
-PO RAMI
+PO RAMAI
 J;ADDR
 return
