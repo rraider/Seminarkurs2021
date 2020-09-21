@@ -2,22 +2,22 @@
 ------------------------------------------------------------
 Table A
 0x0 NOP  - ----- 2
-0x1 ADD  a 0xXXX 3
-0x2 SUB  a 0xXXX 3
-0x3 LDA  a 0xXXX 3
-0x4 LDA  c 0xXXX 2
-0x5 LDB  a 0xXXX 3
-0x6 LDB  c 0xXXX 2
-0x7 JMP  a 0xXXX 3
-0x8 JMPZ a 0xXXX 2 //conditional jump if zero flag is set
-0x9 JMPC a 0xXXX 2 //conditional jump if carry flag is set
+0x1 ADD  a 0xXXX 3 // reg_A + reg_B => addr
+0x2 SUB  a 0xXXX 3 // reg_A - reg_B => addr
+0x3 LDA  a 0xXXX 3 // load reg_A with content of address
+0x4 LDA  c 0xXXX 2 // load reg_A with absolute constant
+0x5 LDB  a 0xXXX 3 // load reg_B with content of address
+0x6 LDB  c 0xXXX 2 // load reg_B with absolute constant
+0x7 JMP  a 0xXXX 3 // jump to content of addr
+0x8 JMPZ a 0xXXX 2 // conditional jump if zero flag is set
+0x9 JMPC a 0xXXX 2 // conditional jump if carry flag is set
 0xA GFX  g+a 0xX + 0xconstXX 3  //welches Grafikregister + Adresse mit Wert (die letzten paar Byte vom EEPROM halt)
-0xB JSUB a 0xXXX
+0xB JSUB c 0xXXX   // jump to subroutine 
 0xC RSUB - ----
 0xD SOT  c 0xX ? //shifts opcode table (see below); arguments: 0x0: Table A, 0x1: Table B
 0xE EXTO //not yet defined
 0xF HALT - ---- (2)
---- FET  - ---- 3
+--- FET  - ---- 3 // loads opcode in IR
 
 Table B
 0x0
