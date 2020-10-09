@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "ProgramCounter Module"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.0"
+Comp "Wilhelm-Maybach-Schule Heilbronn"
+Comment1 "Kevin da Silva Fernandes"
 Comment2 ""
 Comment3 ""
 Comment4 ""
