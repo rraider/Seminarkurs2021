@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name custom)(type Legacy)(uri C:/Users/k.dasilvafernandes/Documents/GitHub/Seminarkurs2021/Hardware/SPU2/lib/custom.lib)(options "")(descr ""))
+  (lib (name "custom")(type "Legacy")(uri "C:/Users/k.dasilvafernandes/Documents/GitHub/Seminarkurs2021/Hardware/SPU2/lib/custom.lib")(options "")(descr ""))
+  (lib (name "RAM-rescue")(type "Legacy")(uri "${KIPRJMOD}/RAM-rescue.lib")(options "")(descr ""))
 )

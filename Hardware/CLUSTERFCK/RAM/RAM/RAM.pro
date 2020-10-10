@@ -41,3 +41,5 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
+[sheetnames]
+1=99fe58e1-ef0b-4a07-ad85-916719e9faa9:
