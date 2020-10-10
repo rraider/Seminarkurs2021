@@ -1,6 +1,6 @@
-update=06.10.2020 21:14:18
+update=10.10.2020 11:15:42
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -33,6 +33,8 @@ LibDir=
 [eeschema/libraries]
 [SchematicFrame]
 version=1
+[sheetnames]
+1=42bcb421-1af6-405e-b902-6bdbfe8534e9:
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -55,5 +57,3 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[sheetnames]
-1=42bcb421-1af6-405e-b902-6bdbfe8534e9:

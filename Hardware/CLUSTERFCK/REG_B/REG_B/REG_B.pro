@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=10.10.2020 11:16:54
 version=1
 last_client=kicad
 [general]
@@ -33,3 +33,25 @@ LibDir=
 [eeschema/libraries]
 [sheetnames]
 1=1b65cc7b-46e8-4240-a699-9809ee035086:
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+NetFmtName=
+SpiceAjustPassiveValues=0
+SubpartIdSeparator=0
+SubpartFirstId=65
+LabSize=50
+TextOffsetRatio=0.3
+LineThickness=6
+BusThickness=12
+WireThickness=6
+PinSymbolSize=25
+JunctionSize=40
+FieldNameTemplates=(templatefields)
+ERC_TestSimilarLabels=1
+ERC_CheckUniqueGlobalLabels=1
+ERC_CheckBusDriverConflicts=1
+ERC_CheckBusEntryConflicts=1
+ERC_CheckBusToBusConflicts=1
+ERC_CheckBusToNetConflicts=1
