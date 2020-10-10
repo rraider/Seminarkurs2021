@@ -6,8 +6,8 @@
 
   (title_block
     (title "CLK MODULE")
-    (date "2020-10-03")
-    (rev "01")
+    (date "2020-10-10")
+    (rev "02")
     (company "Wilhelm-Maybach-Schule Heilbronn")
     (comment 1 "Leon Hellmich")
   )
@@ -1174,8 +1174,8 @@
   (junction (at 226.06 40.64) (diameter 0) (color 0 0 0 0))
   (junction (at 254 135.255) (diameter 0) (color 0 0 0 0))
 
-  (no_connect (at 158.75 91.44))
   (no_connect (at 45.72 54.61))
+  (no_connect (at 158.75 91.44))
 
   (wire (pts (xy 33.02 65.405) (xy 33.02 66.675))
     (stroke (width 0) (type solid) (color 0 0 0 0))

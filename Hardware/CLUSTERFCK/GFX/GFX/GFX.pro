@@ -1,4 +1,4 @@
-update=09.10.2020 15:11:12
+update=10.10.2020 11:45:20
 version=1
 last_client=eeschema
 [general]
@@ -31,6 +31,8 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[sheetnames]
+1=68513432-c7ab-4b24-abd5-b20183cb8b4d:
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -53,5 +55,3 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[sheetnames]
-1=5b30438f-ec50-4d3b-82a1-eeda6edba83a:

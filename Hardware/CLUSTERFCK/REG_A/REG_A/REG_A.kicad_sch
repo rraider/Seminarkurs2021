@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "REGISTER A")
+    (date "2020-10-10")
+    (rev "1")
+    (company "Wilhelm-Maybach-Schule Heilbronn")
+    (comment 1 "Leon Hellmich")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS173"
       (property "Reference" "U" (id 0) (at -7.62 19.05 0)
@@ -618,13 +626,10 @@
   (bus (pts (xy 71.12 69.215) (xy 71.12 74.295))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 101.6 84.455) (xy 101.6 88.265))
+  (bus (pts (xy 101.6 84.455) (xy 101.6 90.805))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 101.6 88.265) (xy 101.6 93.345))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (bus (pts (xy 101.6 93.345) (xy 101.6 95.885))
+  (bus (pts (xy 101.6 90.805) (xy 101.6 95.885))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 123.19 61.595) (xy 125.73 61.595))
@@ -633,13 +638,10 @@
   (bus (pts (xy 125.73 61.595) (xy 130.81 61.595))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 130.81 61.595) (xy 133.35 61.595))
+  (bus (pts (xy 130.81 61.595) (xy 135.89 61.595))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 133.35 61.595) (xy 138.43 61.595))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (bus (pts (xy 138.43 61.595) (xy 140.97 61.595))
+  (bus (pts (xy 135.89 61.595) (xy 140.97 61.595))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
 

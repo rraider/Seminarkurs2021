@@ -31,8 +31,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[sheetnames]
-1=51078ba2-e82c-455e-ad05-bf4d728ea4f9:
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -55,3 +53,5 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[sheetnames]
+1=ace17de3-e733-4a52-bca1-667be4374bc8:

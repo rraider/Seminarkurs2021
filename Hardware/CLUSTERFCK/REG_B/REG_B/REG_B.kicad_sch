@@ -6,9 +6,10 @@
 
   (title_block
     (title "REG_B")
-    (date "2020-10-06")
+    (date "2020-10-10")
     (rev "1")
     (company "Wilhelm-Maybach-Schule Heilbronn")
+    (comment 1 "Leon Hellmich")
   )
 
   (lib_symbols
@@ -625,13 +626,10 @@
   (bus (pts (xy 95.885 76.2) (xy 95.885 81.28))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 126.365 91.44) (xy 126.365 95.25))
+  (bus (pts (xy 126.365 91.44) (xy 126.365 97.79))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
-  (bus (pts (xy 126.365 95.25) (xy 126.365 100.33))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-  )
-  (bus (pts (xy 126.365 100.33) (xy 126.365 102.87))
+  (bus (pts (xy 126.365 97.79) (xy 126.365 102.87))
     (stroke (width 0) (type solid) (color 0 0 0 0))
   )
   (bus (pts (xy 147.955 67.31) (xy 153.035 67.31))

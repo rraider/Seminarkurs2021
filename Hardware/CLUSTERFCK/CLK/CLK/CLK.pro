@@ -35,8 +35,6 @@ LibDir=
 version=1
 [SchematicFrame]
 version=1
-[sheetnames]
-1=cf698811-6b2f-41c0-b495-45fd9b8b7b01:
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -59,3 +57,5 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[sheetnames]
+1=e6da8945-fa73-494a-a450-21fae0f2cb80:

@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "REG_B")
+    (date "2020-10-06")
+    (rev "1")
+    (company "Wilhelm-Maybach-Schule Heilbronn")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS173"
       (property "Reference" "U" (id 0) (at -7.62 19.05 0)
