@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Instruction Register Module"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.0"
+Comp "Wilhelm-Maybach-Schule Heilbronn"
+Comment1 "Kevin da Silva Fernandes"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1077,16 +1077,6 @@ Wire Wire Line
 	7600 4150 7650 4150
 Wire Wire Line
 	7650 2650 7650 2750
-Wire Bus Line
-	5450 4850 5450 5200
-Wire Bus Line
-	6550 2500 6550 2850
-Wire Bus Line
-	5450 2050 5450 4550
-Wire Bus Line
-	6550 3150 6550 4300
-Wire Bus Line
-	3600 2050 3600 4950
 Connection ~ 7650 2750
 Wire Wire Line
 	7650 2750 7650 2850
@@ -1143,4 +1133,14 @@ F 3 "" H 7650 4200 50  0001 C CNN
 	1    7650 4200
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	5450 4850 5450 5200
+Wire Bus Line
+	6550 2500 6550 2850
+Wire Bus Line
+	5450 2050 5450 4550
+Wire Bus Line
+	6550 3150 6550 4300
+Wire Bus Line
+	3600 2050 3600 4950
 $EndSCHEMATC

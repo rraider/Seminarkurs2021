@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "Data Bus"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "1.0"
+Comp "Wilhelm-Maybach-Schule"
+Comment1 "Kevin da Silva Fernandes"
 Comment2 ""
 Comment3 ""
 Comment4 ""
