@@ -33,8 +33,6 @@ LibDir=
 [eeschema/libraries]
 [SchematicFrame]
 version=1
-[sheetnames]
-1=42bcb421-1af6-405e-b902-6bdbfe8534e9:
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -57,3 +55,5 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
+[sheetnames]
+1=5085ac04-d1c4-4ec6-86f3-f949e9a2a91b:
