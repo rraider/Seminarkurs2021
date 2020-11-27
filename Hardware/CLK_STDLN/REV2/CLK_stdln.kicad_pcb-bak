@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 5)
-    (tracks 319)
+    (tracks 321)
     (modules 43)
     (nets 69)
   )
@@ -2293,6 +2293,9 @@
   )
   (gr_rect (start 209.31 153.54) (end 145.36 86.52) (layer "Edge.Cuts") (width 0.05) (tstamp ccde5197-531c-4b59-b3dc-d2a4a4a4e97e))
 
+  (segment (start 204.952 134.864) (end 204.894 134.864) (width 0.2) (layer "F.Cu") (net 5) (tstamp d1bd48ab-e6d7-4ba0-b44a-bf3bcadda42b))
+  (segment (start 204.894 134.864) (end 203.122 133.092) (width 0.2) (layer "F.Cu") (net 5) (tstamp 3e0dc63d-c5fd-41e3-b154-8dbfbd67cc7f))
+  (segment (start 203.122 133.092) (end 203.122 129.574) (width 0.2) (layer "F.Cu") (net 5) (tstamp 989b0434-f8f6-44d2-9380-0f0bffcd1657))
   (segment (start 174.4325 123.72) (end 174.4325 130.20776) (width 0.2) (layer "F.Cu") (net 52) (tstamp 100d9de5-bccd-4067-ac7e-9f730b9e9ae1))
   (segment (start 174.4325 130.20776) (end 175.68112 131.45638) (width 0.2) (layer "F.Cu") (net 52) (tstamp e80e1ba6-09a0-48ef-a4e2-d272216920ce))
   (segment (start 175.68112 133.77112) (end 175.68112 131.45638) (width 0.2) (layer "F.Cu") (net 52) (tstamp c0bdc0b7-9d72-4579-b615-beb73010eff9))
@@ -2567,7 +2570,6 @@
   (via (at 196.592 129.574) (size 0.45) (drill 0.3) (layers "F.Cu" "B.Cu") (net 51) (tstamp 08afb495-c389-4b33-bc0a-189c6b35d32d))
   (segment (start 204.952 134.864) (end 204.952 137.404) (width 0.2) (layer "F.Cu") (net 5) (tstamp 252c3ad0-16cd-47da-97dc-9f47afa657d3))
   (segment (start 199.822 129.574) (end 199.822 129.734) (width 0.2) (layer "F.Cu") (net 5) (tstamp 3047c5ef-7b64-4347-b862-c9eeaac83458))
-  (segment (start 199.822 129.734) (end 204.952 134.864) (width 0.2) (layer "F.Cu") (net 5) (tstamp f55273a0-f409-4d0b-9877-e6ccfe6581f0))
   (segment (start 204.932 134.864) (end 204.952 134.864) (width 0.2) (layer "B.Cu") (net 5) (tstamp defaf83d-0062-485c-9914-053f7f9c7d2d))
   (segment (start 199.822 129.574) (end 203.122 129.574) (width 0.2) (layer "F.Cu") (net 5) (tstamp 680581fb-60d1-4891-9bd2-4ea333e022e8))
   (segment (start 179.9075 131.805) (end 179.9075 125.865) (width 1) (layer "B.Cu") (net 2) (tstamp b8fff88e-7148-4f88-818a-45e6abb96d16))
