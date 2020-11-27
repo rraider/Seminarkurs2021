@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 2)
-    (tracks 256)
+    (tracks 250)
     (modules 35)
     (nets 45)
   )
@@ -1923,12 +1923,6 @@
   (gr_line (start 142.08 0) (end 142.08 74.03) (layer "Edge.Cuts") (width 0.05) (tstamp b6bd1ddb-7716-4bd8-8385-cba5b31caa99))
   (gr_line (start 0 0) (end 142.08 0) (layer "Edge.Cuts") (width 0.05) (tstamp 8fe71103-c5aa-497d-a1a9-eda32670d73e))
 
-  (segment (start 59.69 62.39) (end 73.02 62.39) (width 0.2) (layer "B.Cu") (net 18) (tstamp 5873393c-782d-4111-8631-0d4a0e12344c))
-  (segment (start 73.02 62.39) (end 73.025 62.395) (width 0.2) (layer "B.Cu") (net 18) (tstamp 3be97dd9-5823-4fa3-96c3-a6ec35ce33e2))
-  (via (at 73.025 62.395) (size 0.45) (drill 0.3) (layers "F.Cu" "B.Cu") (net 18) (tstamp 52af3bcd-d141-4a8c-ac85-774fc1c23c20))
-  (segment (start 73.025 60.315) (end 73.025 62.395) (width 0.2) (layer "F.Cu") (net 18) (tstamp 91b67b77-a30c-4053-964a-152a2b314673))
-  (via (at 59.69 62.39) (size 0.45) (drill 0.3) (layers "F.Cu" "B.Cu") (net 18) (tstamp 0605e000-efa9-4caa-a9d4-3e9596a35671))
-  (segment (start 59.69 60.315) (end 59.69 62.39) (width 0.2) (layer "F.Cu") (net 18) (tstamp 7f2bd390-f3fd-42a6-b582-7d34da5e53b4))
   (segment (start 60.96 61.85) (end 80.64 61.85) (width 0.2) (layer "B.Cu") (net 44) (tstamp 8df71d18-7928-476d-a110-f35b354f9b91))
   (segment (start 80.64 61.85) (end 80.645 61.855) (width 0.2) (layer "B.Cu") (net 44) (tstamp 7688527d-55a4-4da4-843f-070d95ba82b5))
   (via (at 80.645 61.855) (size 0.45) (drill 0.3) (layers "F.Cu" "B.Cu") (net 44) (tstamp efac1cb0-7b79-466a-84de-75988ea3bd13))
