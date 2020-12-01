@@ -1,4 +1,4 @@
-update=30.11.2020 19:53:12
+update=01.12.2020 20:27:32
 version=1
 last_client=kicad
 [general]
@@ -26,6 +26,8 @@ ERC_TestSimilarLabels=1
 version=1
 [sheetnames]
 1=c48dd228-f688-40d1-a294-a83ee91d9da2:
+[ModEditFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=

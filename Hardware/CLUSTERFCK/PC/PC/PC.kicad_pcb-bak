@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 4)
+    (drawings 6)
     (tracks 542)
     (modules 35)
     (nets 45)
@@ -46,7 +46,7 @@
       (copper_finish "None")
       (dielectric_constraints no)
     )
-    (last_trace_width 0.2)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -1919,6 +1919,12 @@
     )
   )
 
+  (gr_text "Kevin da Silva Fernandes 2020" (at 104.14 2.54) (layer "F.SilkS") (tstamp c096af2d-2709-4257-917f-6857321ad75e)
+    (effects (font (size 2 2) (thickness 0.3)))
+  )
+  (gr_text "Program Counter" (at 24.13 6.35) (layer "F.SilkS") (tstamp 154d0cd9-8bea-40a0-a13a-7b4665f3fee1)
+    (effects (font (size 3 3) (thickness 0.7)))
+  )
   (gr_line (start 0 0) (end 0 63) (layer "Edge.Cuts") (width 0.05) (tstamp 92113d70-2f11-45ba-ae02-c5721142d5b9))
   (gr_line (start 142.08 63) (end 0 63) (layer "Edge.Cuts") (width 0.05) (tstamp 29754356-a3ea-4a2c-9694-eb62856116b4))
   (gr_line (start 142.08 0) (end 142.08 63) (layer "Edge.Cuts") (width 0.05) (tstamp e300acb8-73f6-4c1c-a3b7-ec0a69dc2183))
