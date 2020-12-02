@@ -1919,7 +1919,7 @@
     )
   )
 
-  (gr_text "Kevin da Silva Fernandes 2020" (at 25.4 49.53) (layer "F.SilkS") (tstamp c096af2d-2709-4257-917f-6857321ad75e)
+  (gr_text "Kevin da Silva Fernandes 2020" (at 102.743 2.921) (layer "F.SilkS") (tstamp c096af2d-2709-4257-917f-6857321ad75e)
     (effects (font (size 2 2) (thickness 0.3)))
   )
   (gr_text "Program Counter" (at 24.13 6.35) (layer "F.SilkS") (tstamp 154d0cd9-8bea-40a0-a13a-7b4665f3fee1)

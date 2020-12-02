@@ -1,4 +1,4 @@
-update=01.12.2020 20:27:32
+update=02.12.2020 09:17:38
 version=1
 last_client=kicad
 [general]
@@ -26,8 +26,6 @@ ERC_TestSimilarLabels=1
 version=1
 [sheetnames]
 1=c48dd228-f688-40d1-a294-a83ee91d9da2:
-[ModEditFrame]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -335,3 +333,5 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[ModEditFrame]
+version=1
