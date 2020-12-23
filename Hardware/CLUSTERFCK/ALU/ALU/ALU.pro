@@ -1,4 +1,4 @@
-update=03.12.2020 14:20:48
+update=23.12.2020 22:28:13
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,10 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[SchematicFrame]
+version=1
+[sheetnames]
+1=da678283-2e15-4698-9136-5f016892f4eb:
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -34,10 +38,10 @@ ERC_CheckBusDriverConflicts=1
 ERC_CheckBusEntryConflicts=1
 ERC_CheckBusToBusConflicts=1
 ERC_CheckBusToNetConflicts=1
-[SchematicFrame]
+[ModEditFrame]
 version=1
-[sheetnames]
-1=20f79f5c-dd18-479a-92ec-f460576bce4a:
+[PcbFrame]
+version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -125,8 +129,13 @@ Extra_footprint=warning
 Unresolved_text_variable=error
 CopperEdgeClearance=0.01
 TrackWidth1=0.25
+TrackWidth2=0.2
+TrackWidth3=0.5
+TrackWidth4=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.43
+ViaDrill2=0.3
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -161,7 +170,7 @@ DimensionPrecision=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -327,7 +336,7 @@ Enabled=1
 [pcbnew/Layer.F.Fab]
 Enabled=1
 [pcbnew/Layer.Rescue]
-Enabled=1
+Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
@@ -340,5 +349,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[ModEditFrame]
-version=1
