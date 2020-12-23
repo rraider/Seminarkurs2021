@@ -1,6 +1,6 @@
-update=27.11.2020 20:22:28
+update=16.12.2020 11:04:23
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -15,7 +15,7 @@ LibDir=
 [SchematicFrame]
 version=1
 [sheetnames]
-1=e0e09ec0-181f-423b-bdf5-f0d611703c3d:
+1=1476dbf4-f44d-49c4-9ab6-03886ed3b437:
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -323,3 +323,27 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+NetFmtName=
+SpiceAjustPassiveValues=0
+SubpartIdSeparator=0
+SubpartFirstId=65
+LabSize=50
+TextOffsetRatio=0.3
+LineThickness=6
+BusThickness=12
+WireThickness=6
+PinSymbolSize=25
+JunctionSize=40
+FieldNameTemplates=(templatefields)
+ERC_TestSimilarLabels=1
+ERC_CheckUniqueGlobalLabels=1
+ERC_CheckBusDriverConflicts=1
+ERC_CheckBusEntryConflicts=1
+ERC_CheckBusToBusConflicts=1
+ERC_CheckBusToNetConflicts=1
+[ModEditFrame]
+version=1
