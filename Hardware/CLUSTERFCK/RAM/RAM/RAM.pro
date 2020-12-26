@@ -1,4 +1,4 @@
-update=06.10.2020 07:58:23
+update=24.12.2020 14:17:00
 version=1
 last_client=kicad
 [general]
@@ -41,5 +41,7 @@ NetFmtName=
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
+[SchematicFrame]
+version=1
 [sheetnames]
-1=99fe58e1-ef0b-4a07-ad85-916719e9faa9:
+1=b91186a7-9402-452e-8d63-0d8bb14598c1:

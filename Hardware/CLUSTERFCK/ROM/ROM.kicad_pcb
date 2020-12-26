@@ -197,7 +197,7 @@
     (descr "Through hole angled pin header, 2x08, 2.54mm pitch, 6mm pin length, double rows")
     (tags "Through hole angled pin header THT 2x08 2.54mm double row")
     (path "/da846bca-5aa9-4b06-a51c-f296f26a5739")
-    (fp_text reference "J4" (at 5.655 -2.27 90) (layer "F.SilkS")
+    (fp_text reference "J4" (at -0.744 -2.587 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Conn_02x08_Counter_Clockwise" (at 5.655 20.05 90) (layer "F.Fab")
@@ -765,7 +765,7 @@
     (descr "Through hole angled pin header, 2x06, 2.54mm pitch, 6mm pin length, double rows")
     (tags "Through hole angled pin header THT 2x06 2.54mm double row")
     (path "/b82bd63e-678b-4819-8437-9c4ee70fe254")
-    (fp_text reference "J6" (at 5.655 -2.27 90) (layer "F.SilkS")
+    (fp_text reference "J6" (at 1.656 -2.59 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Conn_02x06_Counter_Clockwise" (at 5.655 14.97 90) (layer "F.Fab")
@@ -1579,10 +1579,10 @@
   (gr_text "ROM" (at 16.35 4.89) (layer "F.SilkS") (tstamp c7c01bc4-3d43-4567-a9bc-7f8baff1b02f)
     (effects (font (size 3 3) (thickness 0.5)))
   )
-  (gr_line (start 142 0) (end 142 60.26) (layer "Edge.Cuts") (width 0.05) (tstamp 44356ee3-343f-494f-81cb-43c6e03ce7c3))
-  (gr_line (start 0 0) (end 0 60.26) (layer "Edge.Cuts") (width 0.05) (tstamp da2074c5-7a03-44dc-a6f2-0bd87b0ac57f))
+  (gr_line (start 142 2) (end 142 60.26) (layer "Edge.Cuts") (width 0.05) (tstamp 44356ee3-343f-494f-81cb-43c6e03ce7c3))
+  (gr_line (start 0 2) (end 0 60.26) (layer "Edge.Cuts") (width 0.05) (tstamp da2074c5-7a03-44dc-a6f2-0bd87b0ac57f))
   (gr_line (start 0 60.26) (end 142 60.26) (layer "Edge.Cuts") (width 0.05) (tstamp f2396239-ce5c-4124-b18c-5174a1ad3c20))
-  (gr_line (start 0 0) (end 142 0) (layer "Edge.Cuts") (width 0.05) (tstamp f2396239-ce5c-4124-b18c-5174a1ad3c20))
+  (gr_line (start 0 2) (end 142 2) (layer "Edge.Cuts") (width 0.05) (tstamp f2396239-ce5c-4124-b18c-5174a1ad3c20))
 
   (segment (start 43.54999 32.09751) (end 43.54999 33.75999) (width 0.2) (layer "F.Cu") (net 31) (tstamp b41f2a63-60b4-40ec-aa7e-33c15c5bfe51))
   (segment (start 44.55 31.0975) (end 43.54999 32.09751) (width 0.2) (layer "F.Cu") (net 31) (tstamp b54e12ed-ac48-47fe-b0a4-09c354cfc960))
@@ -2008,7 +2008,7 @@
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
-        (xy 142 60.26) (xy 0 60.26) (xy 0 0) (xy 142 0)
+        (xy 142 60.26) (xy 0 60.26) (xy 0 2) (xy 142 2)
       )
     )
     (filled_polygon
@@ -3086,7 +3086,7 @@
         (xy 4.790657 4.605012) (xy 4.70698 4.530982) (xy 4.619474 4.541727) (xy 4.60903 4.543918) (xy 4.378068 4.61321)
         (xy 4.368142 4.61713) (xy 4.152155 4.724346) (xy 4.143032 4.729882) (xy 3.948199 4.871957) (xy 3.940138 4.878952)
         (xy 3.772029 5.051822) (xy 3.765263 5.060074) (xy 3.628683 5.258798) (xy 3.623403 5.268073) (xy 3.52226 5.486968)
-        (xy 3.518619 5.497) (xy 3.444085 5.773233) (xy 0.634 5.773233) (xy 0.634 0.634) (xy 141.366 0.634)
+        (xy 3.518619 5.497) (xy 3.444085 5.773233) (xy 0.634 5.773233) (xy 0.634 2.634) (xy 141.366 2.634)
       )
     )
     (filled_polygon
