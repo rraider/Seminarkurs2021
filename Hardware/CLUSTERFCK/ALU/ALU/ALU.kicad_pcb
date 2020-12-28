@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 5)
-    (tracks 1033)
+    (tracks 1037)
     (modules 33)
     (nets 63)
   )
@@ -46,7 +46,7 @@
       (copper_finish "None")
       (dielectric_constraints no)
     )
-    (last_trace_width 0.5)
+    (last_trace_width 1)
     (user_trace_width 0.2)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -2139,6 +2139,10 @@
   (gr_line (start 140 34) (end 140 130) (layer "Edge.Cuts") (width 0.05) (tstamp c951ba46-e2c8-4632-9545-7edfc973ac35))
   (gr_line (start 21 34) (end 140 34) (layer "Edge.Cuts") (width 0.05) (tstamp 3f17a0e0-1550-4e96-b5fc-883b20564f3f))
 
+  (via (at 73.93 120.1) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 1) (tstamp 049077ec-ca85-45a1-b368-8d491ea19e43))
+  (segment (start 73.93 122.1616) (end 73.93 120.1) (width 1) (layer "F.Cu") (net 1) (tstamp c32babe7-2c1e-4fe3-a071-019b29a1f328))
+  (segment (start 72.76 123.3316) (end 73.93 122.1616) (width 1) (layer "F.Cu") (net 1) (tstamp 850366ba-1698-44db-9a9d-60f5fae8b3fa))
+  (segment (start 72.76 125.8716) (end 72.76 123.3316) (width 1) (layer "F.Cu") (net 1) (tstamp a193ba58-da26-46dd-aae0-47ccb1800805))
   (segment (start 58.1 36.1) (end 57.3 36.1) (width 0.5) (layer "F.Cu") (net 1) (tstamp 5b0a07fa-6742-4911-879d-79abff9b80da))
   (segment (start 57.3 36.1) (end 56.7 35.5) (width 0.5) (layer "F.Cu") (net 1) (tstamp 49e67bde-89a6-482f-b994-7a16180d2d48))
   (via (at 56.7 35.5) (size 0.43) (drill 0.3) (layers "F.Cu" "B.Cu") (net 1) (tstamp ffbe0a3e-4a11-44c7-8b08-7c2eca64b0af))
