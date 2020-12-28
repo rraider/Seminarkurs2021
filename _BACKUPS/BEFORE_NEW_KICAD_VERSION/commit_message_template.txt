@@ -1,0 +1,5 @@
+Fortlaufende Nummer | Benötigte Arbeitsstunden | Kurze Beschreibung
+
+0003 | 4h | Pcb layout
+
+=> alles zusätzlich in Excel Tabelle in Teams packen
