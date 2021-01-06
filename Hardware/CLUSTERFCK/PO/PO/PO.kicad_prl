@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 44,
-    "active_layer_preset": "",
+    "active_layer": 0,
+    "active_layer_preset": "All Layers",
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -60,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "7ffffff_80000001"
+    "visible_layers": "fffffff_ffffffff"
   },
   "meta": {
     "filename": "PO.kicad_prl",
