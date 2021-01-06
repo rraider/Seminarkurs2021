@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name "custom")(type "Legacy")(uri "C:/Users/Leandro/Desktop/Seminarkurs2021-master/Seminarkurs2021-master/Hardware/SPU2/lib/custom.lib")(options "")(descr ""))
-  (lib (name "GFX-rescue")(type "Legacy")(uri "${KIPRJMOD}/GFX-rescue.lib")(options "")(descr ""))
-)

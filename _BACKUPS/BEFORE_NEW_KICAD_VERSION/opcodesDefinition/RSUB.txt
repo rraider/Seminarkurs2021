@@ -1,8 +1,0 @@
-//B register must be 1 at beginning
-CONST MC
-MEMDO AI
-MEMAO MC
-J MEMAO
-CONST MC
-RAMDI SU EO
-return

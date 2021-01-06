@@ -1,3 +1,0 @@
-MC;ADDR
-CE MEMDO BI
-return

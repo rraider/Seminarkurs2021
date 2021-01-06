@@ -1,3 +1,0 @@
-MC;GFX
-CE MEMDO GFXI;GFX
-return

@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name 4xxx_)(type Legacy)(uri C:/Users/hellm/Documents/projects/Seminarkurs2021/Hardware/SPU2/lib/4xxx.lib)(options "")(descr ""))
-  (lib (name 4xxx_IEEE_)(type Legacy)(uri C:/Users/hellm/Documents/projects/Seminarkurs2021/Hardware/SPU2/lib/4xxx_IEEE.lib)(options "")(descr ""))
-  (lib (name custom)(type Legacy)(uri ${KIPRJMOD}/lib/custom.lib)(options "")(descr ""))
-  (lib (name SPU2-rescue)(type Legacy)(uri ${KIPRJMOD}/SPU2-rescue.lib)(options "")(descr ""))
-)

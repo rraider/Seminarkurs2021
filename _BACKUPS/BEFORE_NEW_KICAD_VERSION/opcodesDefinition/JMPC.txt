@@ -1,3 +1,0 @@
-MC;ADDR
-J MEMDO
-return
