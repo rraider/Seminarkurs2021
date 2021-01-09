@@ -1,9 +1,11 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [
-      "GND"
+      "GND",
+      "+5V",
+      "/CLK_A"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
