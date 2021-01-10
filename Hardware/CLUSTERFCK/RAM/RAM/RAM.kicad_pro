@@ -360,7 +360,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RAM.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
