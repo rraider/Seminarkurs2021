@@ -356,7 +356,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ADDR.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

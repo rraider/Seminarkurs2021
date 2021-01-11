@@ -357,7 +357,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "IR.step",
       "vmrl": "",
       "vrml": ""
     },

@@ -358,7 +358,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "GFX.step",
       "vmrl": "GFX.wrl",
       "vrml": ""
     },
