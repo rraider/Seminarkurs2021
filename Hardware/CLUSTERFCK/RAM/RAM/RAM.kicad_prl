@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 39,
     "active_layer_preset": "",
     "hidden_nets": [
       "GND",
@@ -64,7 +64,7 @@
       37,
       38
     ],
-    "visible_layers": "0009020_80000007"
+    "visible_layers": "00090a0_00000000"
   },
   "meta": {
     "filename": "RAM.kicad_prl",

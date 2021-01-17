@@ -728,7 +728,7 @@
   (gr_text "Tom Schädler 2020" (at 56.86 123.12) (layer "F.SilkS") (tstamp 3423201c-efe3-4a6f-9a2b-f966496d14fb)
     (effects (font (size 3 3) (thickness 0.4)))
   )
-  (gr_text "Parallel Output Module" (at 60.46 61.31) (layer "F.SilkS") (tstamp 7023edb1-ae77-483c-a985-25cd6463d297)
+  (gr_text "Parallel Output Module" (at 94.9 61.575) (layer "F.SilkS") (tstamp 7023edb1-ae77-483c-a985-25cd6463d297)
     (effects (font (size 4 4) (thickness 0.6)))
   )
 

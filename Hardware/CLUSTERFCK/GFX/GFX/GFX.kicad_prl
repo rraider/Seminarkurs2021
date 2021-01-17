@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 49,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -60,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "002d120_80000007"
+    "visible_layers": "00090a0_00000000"
   },
   "meta": {
     "filename": "GFX.kicad_prl",
