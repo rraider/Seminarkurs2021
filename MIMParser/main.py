@@ -11,8 +11,6 @@ def autoinvert(byte, epromnumber):
         return ((byte & 0xFF) | (~byte & ~0xFF)) & 0xFF
 
 
-EPROM_SIZE = 20
-
 epromnumber = int(sys.argv[2])
 _input = sys.argv[1]
 _input = _input.split(",")
@@ -20,7 +18,7 @@ if _input[-1] == "":
     _input = _input[:-1]
 _midput = []
 for i in _input:
-    if not re.match(r"\A([0-9a-fA-F])\Z", i):
+    if not re.match(r"\A([0-9a-fA-F]){1,2}\Z", i):
         print("invalid byte value at " + i)
         exit(-1)
     _midput.append(int(i, 16))
