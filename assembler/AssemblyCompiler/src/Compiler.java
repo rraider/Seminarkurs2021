@@ -2,7 +2,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.OpenOption;
 import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -56,7 +58,15 @@ public class Compiler {
 	private boolean writeToFile(String path) {
 		if(mode == 'h') {
 			try {
-				Files.write(Paths.get(path.substring(0, path.length() - 3) + "bin"), outputBinary);
+				for(int i = 0; i < outputBinary.length; i++) {
+					byte[] split = {outputBinary[i]};
+					if(i % 2 == 0)
+						Files.write(Paths.get(path.substring(0, path.length() - 4) + "1.bin"), split, (OpenOption)StandardOpenOption.APPEND);
+					else
+						Files.write(Paths.get(path.substring(0, path.length() - 4) + "0.bin"), split, (OpenOption)StandardOpenOption.APPEND);
+				}
+				//Files.write(Paths.get(path.substring(0, path.length() - 3) + "bin"), outputBinary);
+				//Files.write(Paths.get(path.substring(0, path.length() - 3) + "bin"), outputBinary);
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
