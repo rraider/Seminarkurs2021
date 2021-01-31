@@ -11,6 +11,7 @@ def autoinvert(byte, epromnumber):
         return ((byte & 0xFF) | (~byte & ~0xFF)) & 0xFF
 
 
+EPROM_SIZE = 2048
 epromnumber = int(sys.argv[2])
 _input = sys.argv[1]
 _input = _input.split(",")
@@ -25,9 +26,16 @@ for i in _input:
 for i in range(len(_midput)):
     _midput[i] = autoinvert(_midput[i], epromnumber)
 _output = bytearray(_midput)
+#put stuff here for stupid shit
+final_output = bytearray(EPROM_SIZE - len(_output))
+for i in range(len(final_output)):
+    final_output[i] = autoinvert(0x00, epromnumber)
 try:
     file = open("output" + str(epromnumber) + ".bin", "wb")
     file.write(_output)
+    file.close()
+    file = open("output" + str(epromnumber) + ".bin", "ab")
+    file.write(final_output)
 except IOError:
     print("File read error, check permissions")
     exit(-1)
