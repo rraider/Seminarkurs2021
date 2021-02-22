@@ -61,9 +61,9 @@ public class Compiler {
 				for(int i = 0; i < outputBinary.length; i++) {
 					byte[] split = {outputBinary[i]};
 					if(i % 2 == 0)
-						Files.write(Paths.get(path.substring(0, path.length() - 4) + "1.bin"), split, (OpenOption)StandardOpenOption.APPEND);
+						Files.write(Paths.get(path.substring(0, path.length() - 4) + "1.bin"), split, (OpenOption)StandardOpenOption.APPEND, (OpenOption)StandardOpenOption.CREATE);
 					else
-						Files.write(Paths.get(path.substring(0, path.length() - 4) + "0.bin"), split, (OpenOption)StandardOpenOption.APPEND);
+						Files.write(Paths.get(path.substring(0, path.length() - 4) + "0.bin"), split, (OpenOption)StandardOpenOption.APPEND, (OpenOption)StandardOpenOption.CREATE);
 				}
 				//Files.write(Paths.get(path.substring(0, path.length() - 3) + "bin"), outputBinary);
 				//Files.write(Paths.get(path.substring(0, path.length() - 3) + "bin"), outputBinary);
@@ -145,8 +145,8 @@ public class Compiler {
 				if(!convertInstructions(true, gfxData)) return false;
 				for(int i = 0; i < gfxList.size(); i ++) {
 					byte[] tmp = new byte[2];
-					tmp[0] = (byte) (Byte.parseByte(gfxList.get(i).gfxData) / (byte)0xFF);
-					tmp[1] = Byte.parseByte(gfxList.get(i).gfxData);
+					tmp[0] = (byte) (Integer.parseInt(gfxList.get(i).gfxData, 16) / (byte)0xFF);
+					tmp[1] = (byte) Integer.parseInt(gfxList.get(i).gfxData, 16);
 					outputBinary[2 * i + 2 * 0x700 + 1] = tmp[0];
 				}
 			}

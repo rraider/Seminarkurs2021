@@ -8,7 +8,7 @@ def autoinvert(byte, epromnumber):
     elif epromnumber == 1:  # eprom from EO to RAMAI
         return ((byte & 0xB0) | (~byte & ~0xB0)) & 0xFF
     elif epromnumber == 2:  # eprom from EXT0 to return
-        return ((byte & 0x7F) | (~byte & ~0x7F)) & 0xFF
+        return ((byte & 0x0F) | (~byte & ~0x0F)) & 0xFF
 
 
 EPROM_SIZE = 2048

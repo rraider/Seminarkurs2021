@@ -1,0 +1,4 @@
+py main.py [displaytext] [shift]
+
+displaytext: text to be displayed on the banner
+shift: amount of columns to shift banner each cycle
